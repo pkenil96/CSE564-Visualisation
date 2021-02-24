@@ -1,0 +1,95 @@
+body {
+    margin: 5px;
+    padding: 5px;
+}
+
+.float-container {
+    border: 2px solid #fff;
+    padding: 2px;
+}
+
+.float-child-ul {
+    display: inline;
+    width: 25%;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.float-child-main {
+    display: inline;
+    width: 70%;
+    float: right;
+    /*border: 1px solid red;*/
+}  
+
+header{
+    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.header img {
+    display: inline;
+    float: left;
+    width: 250px;
+    height: 100px;
+    background: #555;
+}
+
+.header h1 {
+    background-color: white;
+    display: inline;
+    position: relative;
+    top: 16px;
+    left: 350px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 2px;
+    padding: 2px;
+    width: 300px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #211;
+    /*border-bottom: 1px solid #bbb;*/
+}
+
+li a.active {
+    /*background-color: #4CAF50;*/
+    background-color: darkblue;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+.bar {
+    fill: darkblue;
+}
+
+.highlight {
+    fill: deepskyblue;
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.grid line {
+    stroke: darkblue;
+    stroke-opacity: 0.5
