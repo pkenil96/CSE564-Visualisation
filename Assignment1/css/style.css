@@ -76,6 +76,10 @@ li a:hover:not(.active) {
     fill: darkblue;
 }
 
+.bar: hover{
+    fill: red;
+}
+
 .highlight {
     fill: deepskyblue;
 }

@@ -1,31 +1,18 @@
-//global variables for storing csv data
-var howOld = [];
-var responseTime = [];
-var responseRate = [];
-var propertyType = [];
-var acceptanceRate = [];
-var listingCount = [];
-var roomType = [];
-var accomodates = [];
-var minimumNights = [];
-var maximumNights = [];
-var price = [];
-var instantBooking = [];
-var bedCount = [];
-var avail365Days = [];
+/* 
+	loading data from csv into d3
+ 	data source: http://insideairbnb.com/get-the-data.html
+*/
 
-// loading data from csv into d3
-// http://insideairbnb.com/get-the-data.html
-d3.csv("data/clean_data.csv").then(function(csvData) {
-	csvData.map( function(d) {
-		console.log(+d.host_since);
+d3.csv("data/smaller_data.csv").then(function(csvData) {
+//d3.csv("data/clean_data.csv").then(function(csvData) {
+    csvData.map( function(d) {
 		howOld.push(+d.host_since);
-		responseTime.push(+d.host_response_time);
+		responseTime.push(d.host_response_time);
 		responseRate.push(+d.host_response_rate);
-		propertyType.push(+d.property_type);
+		propertyType.push(d.property_type);
 		acceptanceRate.push(+d.host_acceptance_rate);
 		listingCount.push(+d.host_listings_count);
-		roomType.push(+d.room_type);
+		roomType.push(d.room_type);
 		accomodates.push(+d.accommodates);
 		minimumNights.push(+d.minimum_nights);
 		maximumNights.push(+d.maximum_nights);
@@ -39,111 +26,147 @@ d3.csv("data/clean_data.csv").then(function(csvData) {
 function fnHome(){
 	document.getElementsByClassName("active")[0].className = "";
     document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
-    document.getElementById("mysvg").innerHTML = "";
+    document.getElementById("mysvg").innerHTML = "<h3 align=\"center\">This project analyzes the airbnb data in the city of Amsterdam</h3>";
+    return;
 }
 
 function fnHowOld(){
 	document.getElementsByClassName("active")[0].className = "";
     document.getElementById("btnHowOld").className = "active";
-    noOfBins = document.getElementById("slider").value;
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(howOld, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnResponseTime(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnResponseTime").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return barChart(responseTime, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnResponseRate(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnResponseRate").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(responseRate, titleText, xAxisLabelText, yAxisLabelText);
+
 }
 
 function fnAcceptanceRate(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnAcceptanceRate").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(acceptanceRate, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnPropertyType(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnPropertyType").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = 'What are the types of Airbnb in Amsterdam?'
+    var yAxisLabelText = 'Types of Property';
+    var xAxisLabelText = 'Frequency';
+    return barChart(propertyType, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnListingCount(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnListingCount").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(listingCount, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnBedCount(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnBedCount").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(bedCount, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnRoomType(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnRoomType").className = "active";
     document.getElementById("mysvg").innerHTML = "";
-}
-
-function fnNeighbourhood(){
-	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
-    document.getElementById("mysvg").innerHTML = "";
+    var titleText = 'What are the types of room in the AirBnb??'
+    var yAxisLabelText = 'Types of room';
+    var xAxisLabelText = 'Frequency';
+    return barChart(roomType, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnAccomodates(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnAccomodates").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(accomodates, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnMinimumNights(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnMinimumNights").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(minimumNights, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnMaximumNights(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnMaximumNights").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(maximumNights, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnPrice(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnPrice").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(price, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnInstantBooking(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnInstantBooking").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return barChart(instantBooking, titleText, xAxisLabelText, yAxisLabelText);
 }
 
 function fnAvail365Days(){
 	document.getElementsByClassName("active")[0].className = "";
-    document.getElementById("btnHome").className = "active";
-    noOfBins = document.getElementById("slider").value;
+    document.getElementById("btnAvail365Days").className = "active";
     document.getElementById("mysvg").innerHTML = "";
+    var titleText = ''
+    var yAxisLabelText = '';
+    var xAxisLabelText = '';
+    return histogram(avail365Days, titleText, xAxisLabelText, yAxisLabelText);
 }

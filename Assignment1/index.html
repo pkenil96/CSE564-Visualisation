@@ -3,8 +3,11 @@
 <head>
 	<title>AirBnb data for Amsterdam</title>
 	<script src="https://d3js.org/d3.v6.min.js"></script>
+	<script src="js/util.js"></script>
+	<script src="js/globalconstants.js"></script>
 	<script src="js/main.js"></script>
 	<link   href="css/style.css"rel="stylesheet" type="text/css" />
+	<link rel="shortcut icon" href="#">
 </head>
 
 <body>
@@ -19,7 +22,7 @@
 		<div class="float-child-ul">
 			<ul>
 			    <li><a id = "btnHome" class="active" href="#" onclick="fnHome()">Home</a></li>
-			    <li><a id = "btnHowOld" href="#" onclick="fnHowOld()">How old are the AirBnb(s)?</a></li>
+			    <li><a id = "btnHowOld" href="#" onclick="fnHowOld()">How old are the AirBnbs?</a></li>
 			    <li><a id = "btnResponseTime" href="#" onclick="fnResponseTime()">What is a typical host's response time?</a></li>
 			    <li><a id = "btnResponseRate" href="#" onclick="fnResponseRate()">What is a typical host's response rate?</a></li>
 			    <li><a id = "btnAcceptanceRate" href="#" onclick="fnAcceptanceRate()">What is a typical host's acceptance rate?</a></li>
@@ -27,18 +30,17 @@
 			    <li><a id = "btnListingCount" href="#" onclick="fnListingCount()">What is the host's listing count?</a></li>
 			    <li><a id = "btnBedCount" href="#" onclick="fnBedCount()">How many beds does most Airbnb have?</a></li>
 			    <li><a id = "btnRoomType" href="#" onclick="fnRoomType()">What are the types of rooms available?</a></li>
-			    <li><a id = "btnNeighbourhood" href="#" onclick="fnNeighbourhood()">Where is the neighbourhood?</a></li>
 			    <li><a id = "btnAccomodates" href="#" onclick="fnAccomodates()">How many does the house accomodates?</a></li>
 			    <li><a id = "btnMinimumNights" href="#" onclick="fnMinimumNights()">Minimum Nights you need to stay?</a></li>
 			    <li><a id = "btnMaximumNights" href="#" onclick="fnMaximumNights()">Maximum Nights you can stay?</a></li>
 			    <li><a id = "btnPrice" href="#" onclick="fnPrice()">How pricy is the AirBnb?</a></li>
-			    <li><a id = "btnInstantBooking" href="#" onclick="fnInstantBooking()">How many have instant booking available?</a></li>
-			    <li><a id = "btnAvail365Days" href="#" onclick="fnAvail365Days()">How many days is the house available in 365 days?</a></li>
+			    <li><a id = "btnInstantBooking" href="#" onclick="fnInstantBooking()">How many have instant booking?</a></li>
+			    <li><a id = "btnAvail365Days" href="#" onclick="fnAvail365Days()">Availability throughout the year?</a></li>
 			</ul>
 		</div>
 		
-		<div class="float-child-main" >
-    		<svg id="mysvg" width="700" height="500"></svg>
+		<div class="float-child-main" id="mysvg">
+    		
 		</div>
 	</div>
 
