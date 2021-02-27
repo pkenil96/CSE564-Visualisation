@@ -1,14 +1,14 @@
 const getFrequencyMap = (data) => {
-        const map = {};
-        data.forEach(item => {
-            if(map[item]){
-                map[item]++;
-            } else {
-                map[item] = 1;
-            }
-        });
-        return map;
-    };
+    const map = {};
+    data.forEach(item => {
+        if(map[item]){
+            map[item]++;
+        } else {
+            map[item] = 1;
+        }
+    });
+    return map;
+};
 
 function barChart(data, titleText, yAxisLabelText, xAxisLabelText){
 	var xvals = [];
@@ -86,117 +86,118 @@ function barChart(data, titleText, yAxisLabelText, xAxisLabelText){
     svg.node();
 }
 
-
-function histogram(hdata, titleText, xAxisLabelText, yAxisLabelText){
-    // set the dimensions and margins of the graph
-    // set the dimensions and margins of the graph
-    
-    /*
-    var width = 900;
-    var height = 500;
+function dummy(){
+    var data = [1, 1, 2, 5, 16, 3, 4, 2, 16, 9, 1, 9, 9, 5, 4, 1, 1, 16, 7, 7, 3, 5, 16];
+    var margin = {
+        top: 20, right: 30, bottom: 30, left: 30
+    };
+    var width = 960 - margin.left - margin.right;
+    var height = 500 - margin.top - margin.bottom;
+    console.log('width: ' + width);
+    console.log('height' + height)
+    var max = d3.max(data);
+    console.log('max ' + max);
+    var min = d3.min(data);
+    console.log('min ' + min);
     var x = d3.scaleLinear()
-        .domain([0, 50])
+        .domain([min, max])
         .range([0, width]);
+    console.log('x ' + x)
+    for (var i = 1; i<=16; i++){
+        console.log(i + '-->' + x(i));
+    }
 
-    var bins = d3.histogram()
-        .domain(x.domain())
-        .thresholds(x.ticks(30))(data);
 
-    var max = d3.max(bins, function(d) {
-        return d.y;
-    });
+    var numberofBins = 10;
+    var data = d3.histogram()
+        .thresholds(x.ticks(numberofBins))
+        (data);
 
-    var y = d3.scaleLinear().domain([0, .1]).range([0, height]);
+}
 
-    var yForHistogram = d3.scaleLinear()
-        .domain([0, d3.max(bins, function(d) {
-        return d.length;
-    })])
-    .range([height, 0]);
-
-var vis = d3.select("#mysvg")
-    .append("svg")
-    .attr("width", width)
-    .attr("height", height);
-
-var bars = vis.selectAll("g.bar")
-  .data(bins)
-  .enter().append("g")
-  .attr("class", "bar")
-  .attr("transform", function(d) {
-    return "translate(" + x(d.x0) + "," + yForHistogram(d.length) + ")";
-  });
-
-bars.append("rect")
-  .attr("fill", "steelblue")
-  .attr("width", x(bins[0].x1) - x(bins[0].x0) - 1)
-  .attr("height", function(d) {
-    return height - yForHistogram(d.length);
-  }); */
+function histogram(data, titleText, xAxisLabelText, yAxisLabelText, bins){
+    
     var formatCount = d3.format(",.0f");
 
-    var svg = d3.select("#mysvg"),
-        margin = {
-            top: 10,
-            right: 30,
-            bottom: 30,
-            left: 30
+    var margin = {
+        top: 20,
+        right: 30,
+        bottom: 30,
+        left: 30
     },
-  width = +svg.attr("width") - margin.left - margin.right,
-  height = +svg.attr("height") - margin.top - margin.bottom,
-  g = svg.append("g").attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
-  var data = hdata;
-  var values = data.map(function(d) {
-    return d
-  });
-  
+    var max = d3.max(data);
+    var min = d3.min(data);
+    // domain takes the range of values and maps it to the new range specified in range
+    var x = d3.scaleLinear()
+      .domain([min, max])
+      .range([0, width]);
 
-  var x = d3.scaleLinear()
-    .domain(d3.extent(values))
-    .rangeRound([0, width])
+    // Generate a histogram using numberofBins uniformly-spaced bins.
+    var numberOfBins = bins;
 
-  var histogram = d3.histogram()
-    .domain(x.domain())
-    .thresholds(x.ticks(5));
+    var data = d3.histogram()
+        .thresholds(x.ticks(numberOfBins))
+        (data);
 
-  var bins = histogram(values);
+    var color = d3.scaleLinear()
+        .domain([-1, 0, 1])
+        .range(["red", "white", "green"]);
 
-  var y = d3.scaleLinear()
-    .domain([0, d3.max(bins, function(d) {
-      return d.length;
-    })])
-    .range([height, 0]);
+    var yMax = d3.max(data, function(d){return d.length});
+    var yMin = d3.min(data, function(d){return d.length});
+    
+    var colorScale = d3.scaleLinear()
+        .domain([yMin, yMax])
+        .range([d3.rgb(color).brighter(), d3.rgb(color).darker()]);
 
-  var bar = g.selectAll(".bar")
-    .data(bins)
+    var y = d3.scaleLinear()
+        .domain([0, yMax])
+        .range([height, 0]);
+
+    var xAxis = d3.axisBottom(x).tickFormat(function(d){ 
+        return d.x0;
+    });
+
+    var svg = d3.select("#mysvg").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var bar = svg.selectAll(".bar")
+        .data(data)
     .enter().append("g")
     .attr("class", "bar")
-    .attr("transform", function(d) {
-      return "translate(" + x(d.x0) + "," + y(d.length) + ")";
-    });
+    .attr("transform", function(d) { return "translate(" + x(d.x0) + "," + y(d.length) + ")"; });
 
-  bar.append("rect")
-    .attr("x", 1)
-    .attr("width", x(bins[0].x1) - x(bins[0].x0) - 2)
-    .attr("height", function(d) {
-      return height - y(d.length);
-    });
+    bar.append("rect")
+        .attr("x", 1)
+        .attr("width", (x(data[0].x1 - data[0].x0) - x(0)) - 1)
+        .attr("height", function(d) { return height - y(d.length); })
+        .attr("fill", function(d) { return colorScale(d.length) })
+        .on("mouseover", function() {
+            d3.select(this)
+                .attr("fill", "red");
+           })
+        .on("mouseout", function(d, i) {
+            d3.select(this)
+                .attr("fill", "black"); 
+        });
 
-  bar.append("text")
-    .attr("dy", ".75em")
-    .attr("y", 6)
-    .attr("x", (x(bins[0].x1) - x(bins[0].x0)) / 2)
-    .attr("text-anchor", "middle")
-    .text(function(d) {
-      return formatCount(d.length);
-    });
+    bar.append("text")
+        .attr("dy", ".40em")
+        .attr("y", -12)
+        .attr("x", (x(data[0].x1 - data[0].x0) - x(0)) / 2)
+        .attr("text-anchor", "middle")
+        .text(function(d) { return formatCount(d.length); });
 
-  g.append("g")
-    .attr("class", "axis axis--x")
-    .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x));
-
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
 }
 
 function scatterPlot(data, titleText, xAxisLabelText, yAxisLabelText){

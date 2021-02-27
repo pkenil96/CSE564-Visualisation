@@ -72,6 +72,21 @@ li a:hover:not(.active) {
     color: white;
 }
 
+
+.bar rect {
+  shape-rendering: crispEdges;
+}
+
+.bar text {
+  fill: #999999;
+}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
 .bar {
     fill: darkblue;
 }

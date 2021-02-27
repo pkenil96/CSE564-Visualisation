@@ -3,7 +3,7 @@
  	data source: http://insideairbnb.com/get-the-data.html
 */
 
-d3.csv("data/smaller_data.csv").then(function(csvData) {
+d3.csv("data/clean_data.csv").then(function(csvData) {
 //d3.csv("data/clean_data.csv").then(function(csvData) {
     csvData.map( function(d) {
 		howOld.push(+d.host_since);
@@ -23,11 +23,13 @@ d3.csv("data/smaller_data.csv").then(function(csvData) {
 	});
 });
 
+
+var bins = 15;
 function fnHome(){
 	document.getElementsByClassName("active")[0].className = "";
     document.getElementById("btnHome").className = "active";
     document.getElementById("mysvg").innerHTML = "<h3 align=\"center\">This project analyzes the airbnb data in the city of Amsterdam</h3>";
-    return;
+    return dummy();
 }
 
 function fnHowOld(){
@@ -37,7 +39,7 @@ function fnHowOld(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(howOld, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(howOld, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnResponseTime(){
@@ -57,7 +59,7 @@ function fnResponseRate(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(responseRate, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(responseRate, titleText, xAxisLabelText, yAxisLabelText, bins);
 
 }
 
@@ -68,7 +70,7 @@ function fnAcceptanceRate(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(acceptanceRate, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(acceptanceRate, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnPropertyType(){
@@ -88,7 +90,7 @@ function fnListingCount(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(listingCount, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(listingCount, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnBedCount(){
@@ -98,7 +100,7 @@ function fnBedCount(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(bedCount, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(bedCount, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnRoomType(){
@@ -118,7 +120,7 @@ function fnAccomodates(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(accomodates, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(accomodates, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnMinimumNights(){
@@ -128,7 +130,8 @@ function fnMinimumNights(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(minimumNights, titleText, xAxisLabelText, yAxisLabelText);
+    bins = 20;
+    return histogram(minimumNights, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnMaximumNights(){
@@ -138,7 +141,7 @@ function fnMaximumNights(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(maximumNights, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(maximumNights, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnPrice(){
@@ -148,7 +151,7 @@ function fnPrice(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(price, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(price, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
 
 function fnInstantBooking(){
@@ -168,5 +171,5 @@ function fnAvail365Days(){
     var titleText = ''
     var yAxisLabelText = '';
     var xAxisLabelText = '';
-    return histogram(avail365Days, titleText, xAxisLabelText, yAxisLabelText);
+    return histogram(avail365Days, titleText, xAxisLabelText, yAxisLabelText, bins);
 }
