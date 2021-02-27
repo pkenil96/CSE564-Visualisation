@@ -1,501 +1,1001 @@
 ,host_since,host_response_time,host_response_rate,host_acceptance_rate,host_listings_count,property_type,room_type,accommodates,beds,price,minimum_nights,maximum_nights,availability_365,number_of_reviews,instant_bookable
-0,4537,a few days or more,95,100,1,cabin,Private room,2,2,59,3,1125,139,278,Not Available
-1,4103,a few days or more,95,100,2,studio apartment,Private room,2,1,129,1,365,0,339,Not Available
-2,4115,a few days or more,95,0,2,villa,Entire home/apt,3,1,125,14,180,251,5,Available
-3,3992,within an hour,100,100,1,studio apartment,Private room,2,1,125,2,730,136,219,Available
-4,3941,within an hour,100,87,2,bunglow,Private room,2,1,75,2,1825,338,336,Available
-5,3941,within an hour,100,87,2,studio apartment,Private room,1,1,55,2,730,355,480,Available
-6,3927,a few days or more,95,0,1,villa,Entire home/apt,4,3,219,3,365,0,32,Not Available
-7,3870,a few days or more,95,50,1,chalet,Entire home/apt,3,1,160,4,35,0,89,Not Available
-8,3861,a few days or more,95,0,0,tent,Entire home/apt,4,4,211,3,30,362,59,Not Available
-9,3861,within an hour,100,25,4,bunglow,Entire home/apt,2,1,115,4,1125,117,179,Available
-10,3842,a few days or more,95,83,1,condo,Entire home/apt,2,1,150,3,1825,0,3,Available
-11,3825,within an hour,100,93,1,tent,Entire home/apt,3,2,136,2,1124,244,368,Available
-12,3824,a few days or more,95,0,0,condo,Entire home/apt,4,2,250,3,365,365,103,Available
-13,3819,within a day,50,0,1,chalet,Entire home/apt,6,3,115,4,15,135,17,Not Available
-14,3819,a few days or more,95,100,1,bunglow,Private room,2,1,118,2,365,343,307,Not Available
-15,3863,a few days or more,95,83,1,condo,Private room,2,1,75,2,20,0,102,Available
-16,3804,a few days or more,95,100,1,chalet,Private room,2,0,40,7,150,0,354,Available
-17,3803,a few days or more,95,100,1,cabin,Private room,2,1,75,3,14,5,309,Not Available
-18,3788,a few days or more,95,83,1,chalet,Private room,2,1,90,1,365,0,179,Available
-19,3786,a few days or more,95,100,1,studio apartment,Entire home/apt,4,2,222,3,24,0,32,Available
-20,3784,a few days or more,95,83,1,studio apartment,Private room,2,1,65,2,7,315,157,Not Available
-21,3784,a few days or more,95,33,1,cottage,Entire home/apt,4,2,149,4,21,0,95,Available
-22,3778,within a day,70,55,3,bunglow,Entire home/apt,2,2,155,1,681,179,0,Not Available
-23,3766,within an hour,100,98,4,cabin,Private room,4,2,135,3,365,321,124,Available
-24,3743,a few days or more,95,100,1,chalet,Entire home/apt,2,1,135,2,8,334,30,Available
-25,3739,a few days or more,95,83,1,cottage,Entire home/apt,4,1,750,30,30,0,0,Available
-26,3739,a few days or more,95,83,1,cottage,Entire home/apt,2,1,189,3,30,0,103,Available
-27,3705,within a day,50,50,3,bunglow,Entire home/apt,2,1,106,2,30,0,16,Available
-28,3703,within a day,50,100,2,bunglow,Private room,2,2,45,1,360,63,659,Available
-29,3703,within a day,50,100,2,cabin,Private room,2,1,98,1,30,0,579,Available
-30,3701,a few days or more,95,91,1,tent,Private room,2,1,40,1,15,0,108,Not Available
-31,3659,within a day,67,93,3,chalet,Private room,3,2,55,3,90,0,254,Not Available
-32,3659,within a day,67,93,3,studio apartment,Private room,2,1,48,3,100,0,324,Not Available
-33,3658,within a few hours,100,100,2,tent,Private room,2,1,80,4,30,330,33,Not Available
-34,3658,within a few hours,100,100,2,condo,Private room,2,2,80,4,31,296,16,Not Available
-35,3653,a few days or more,95,100,1,condo,Hotel room,4,2,145,3,90,0,64,Not Available
-36,3639,a few days or more,95,83,3,cottage,Private room,1,1,109,2,1125,0,218,Not Available
-37,3862,within an hour,100,100,1,chalet,Entire home/apt,4,2,109,2,28,332,859,Not Available
-38,3631,within a few hours,100,100,2,bunglow,Entire home/apt,4,2,249,3,365,364,131,Not Available
-39,3628,within an hour,100,50,1,cottage,Entire home/apt,2,1,45,2,35,73,157,Available
-40,3627,a few days or more,95,100,29,villa,Hotel room,2,1,109,3,60,41,94,Available
-41,4083,within an hour,100,0,1,tent,Entire home/apt,2,2,68,30,730,150,11,Available
-42,3611,a few days or more,95,100,1,chalet,Private room,2,1,95,1,18,0,44,Not Available
-43,3853,within an hour,100,100,2,villa,Private room,2,2,45,2,8,357,196,Not Available
-44,3801,within an hour,100,83,1,cottage,Entire home/apt,2,1,150,2,365,362,37,Not Available
-45,3583,a few days or more,95,83,1,cabin,Entire home/apt,4,2,100,5,30,0,3,Available
-46,3559,a few days or more,95,83,1,cabin,Private room,2,1,80,2,730,0,29,Not Available
-47,3551,a few days or more,95,83,0,villa,Entire home/apt,3,1,165,2,1125,89,24,Not Available
-48,3547,a few days or more,95,83,2,cottage,Entire home/apt,3,2,145,4,30,0,86,Available
-49,3540,a few days or more,95,83,1,studio apartment,Private room,2,1,37,2,7,0,4,Not Available
-50,3531,a few days or more,95,83,1,condo,Entire home/apt,2,1,150,7,15,0,21,Available
-51,3524,a few days or more,95,67,1,cottage,Entire home/apt,2,1,125,3,21,365,56,Available
-52,3521,within a day,100,71,1,studio apartment,Entire home/apt,4,4,112,2,5,192,41,Available
-53,3639,a few days or more,95,83,3,cottage,Private room,2,1,118,2,1124,0,256,Available
-54,3517,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,157,7,13,135,22,Available
-55,3516,within a day,100,100,1,tent,Entire home/apt,2,1,150,5,180,70,63,Available
-56,3515,a few days or more,95,83,1,condo,Entire home/apt,3,3,120,3,5,0,103,Not Available
-57,3514,a few days or more,95,78,0,studio apartment,Entire home/apt,4,2,249,2,1125,178,5,Not Available
-58,3514,a few days or more,95,0,1,chalet,Entire home/apt,6,3,97,4,20,364,48,Available
-59,3510,a few days or more,95,100,1,chalet,Entire home/apt,2,1,159,2,31,0,139,Available
-60,4106,a few days or more,95,88,1,tent,Entire home/apt,4,2,200,2,30,355,102,Available
-61,3505,within a day,100,100,2,condo,Entire home/apt,3,2,275,21,100,351,27,Available
-62,3501,a few days or more,95,83,1,tent,Entire home/apt,2,2,125,30,365,0,15,Not Available
-63,3494,within an hour,100,100,1,chalet,Private room,4,3,113,2,365,194,186,Available
-64,3490,a few days or more,95,100,2,villa,Private room,2,1,72,2,31,88,598,Not Available
-65,3483,a few days or more,95,83,1,cabin,Entire home/apt,2,1,129,3,1125,0,41,Not Available
-66,3481,a few days or more,95,83,1,villa,Entire home/apt,3,2,99,5,30,0,42,Available
-67,3592,within a day,67,60,1,tent,Entire home/apt,2,3,71,5,30,145,42,Not Available
-68,3476,a few days or more,95,83,1,chalet,Entire home/apt,4,4,284,3,60,0,24,Not Available
-69,3474,a few days or more,95,83,1,cabin,Entire home/apt,2,1,99,1,730,0,2,Not Available
-70,3466,a few days or more,95,83,1,studio apartment,Private room,3,3,50,2,60,358,183,Available
-71,3499,a few days or more,95,67,1,villa,Entire home/apt,4,3,246,3,365,69,20,Not Available
-72,3571,a few days or more,95,83,1,chalet,Entire home/apt,2,1,151,2,30,0,41,Available
-73,3462,within a few hours,100,73,1,cottage,Private room,3,2,99,3,50,209,168,Not Available
-74,3457,a few days or more,95,100,2,cabin,Private room,2,1,245,2,760,344,10,Available
-75,3452,within an hour,100,100,1,chalet,Entire home/apt,2,1,92,3,21,0,132,Not Available
-76,3441,a few days or more,95,83,1,tent,Entire home/apt,4,2,125,14,60,0,16,Not Available
-77,3475,a few days or more,95,100,2,villa,Entire home/apt,4,3,215,2,180,97,104,Available
-78,3421,within a day,58,68,2,condo,Entire home/apt,4,2,145,30,365,1,21,Available
-79,3420,a few days or more,95,92,1,cabin,Private room,2,0,122,2,365,360,343,Not Available
-80,3416,a few days or more,95,83,1,tent,Entire home/apt,2,1,79,4,50,0,102,Available
-81,3415,a few days or more,95,83,1,bunglow,Entire home/apt,2,2,449,1,1125,179,13,Not Available
-82,3414,a few days or more,95,83,1,cottage,Entire home/apt,4,2,385,4,30,365,11,Available
-83,3411,a few days or more,95,100,1,villa,Private room,2,1,149,2,21,344,81,Available
-84,3410,a few days or more,95,83,1,tent,Entire home/apt,2,1,296,3,30,347,49,Not Available
-85,3408,within an hour,100,85,2,cottage,Private room,4,2,125,2,365,355,90,Not Available
-86,3406,a few days or more,95,83,1,chalet,Entire home/apt,5,6,250,5,30,0,7,Available
-87,3404,a few days or more,95,83,1,tent,Entire home/apt,4,1,8000,30,30,365,8,Not Available
-88,3399,a few days or more,95,100,1,bunglow,Private room,2,1,88,3,30,0,113,Available
-89,3395,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,85,2,21,9,22,Available
-90,3388,within an hour,100,100,1,tent,Private room,2,1,45,3,30,7,220,Not Available
-91,3385,a few days or more,95,83,1,tent,Entire home/apt,2,1,145,5,30,0,6,Not Available
-92,3382,a few days or more,95,83,1,cottage,Entire home/apt,2,1,125,2,15,89,43,Not Available
-93,3378,a few days or more,95,83,2,villa,Entire home/apt,2,1,125,4,760,0,20,Available
-94,3371,a few days or more,95,83,1,condo,Entire home/apt,3,3,116,10,365,0,3,Not Available
-95,3377,a few days or more,95,50,1,bunglow,Entire home/apt,12,12,650,2,90,269,109,Available
-96,3449,within a day,80,25,1,villa,Entire home/apt,4,1,95,4,28,347,1,Available
-97,3365,within an hour,100,100,2,villa,Private room,2,1,78,3,365,306,280,Not Available
-98,3365,within an hour,100,100,2,studio apartment,Private room,2,1,78,3,365,1,324,Available
-99,3432,a few days or more,95,83,2,cottage,Private room,2,1,80,2,31,0,8,Available
-100,3359,a few days or more,95,100,1,villa,Private room,2,1,105,3,1125,365,209,Not Available
-101,3364,a few days or more,95,0,2,tent,Private room,2,1,115,7,14,358,25,Available
-102,3356,a few days or more,95,83,1,cottage,Entire home/apt,3,3,74,1,365,0,5,Available
-103,3351,a few days or more,95,100,1,studio apartment,Entire home/apt,2,1,195,5,9,49,90,Available
-104,3345,a few days or more,95,83,1,condo,Entire home/apt,4,2,125,3,25,0,83,Not Available
-105,3342,a few days or more,95,83,1,bunglow,Entire home/apt,5,3,112,5,1125,0,14,Not Available
-106,3769,within a few hours,82,77,2,condo,Entire home/apt,2,2,51,2,1125,327,101,Not Available
-107,3340,a few days or more,95,80,1,chalet,Entire home/apt,2,1,95,3,30,0,52,Available
-108,3340,within a day,83,62,1,villa,Entire home/apt,3,1,135,2,1125,132,89,Not Available
-109,3338,a few days or more,95,100,1,villa,Entire home/apt,4,4,275,1,25,363,129,Available
-110,3455,a few days or more,95,83,0,studio apartment,Entire home/apt,4,2,200,3,21,208,21,Not Available
-111,3336,within a few hours,90,68,2,bunglow,Entire home/apt,16,16,600,2,30,363,99,Available
-112,3455,a few days or more,95,83,0,cabin,Entire home/apt,2,1,125,3,21,0,2,Available
-113,3455,a few days or more,95,83,0,studio apartment,Private room,2,1,70,3,10,136,35,Available
-114,3339,a few days or more,95,83,1,villa,Entire home/apt,2,2,175,2,21,0,75,Available
-115,3332,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,169,2,130,0,28,Available
-116,3332,a few days or more,95,100,2,bunglow,Entire home/apt,2,1,190,3,666,352,81,Available
-117,3471,a few days or more,95,83,1,tent,Entire home/apt,2,1,95,3,30,0,53,Not Available
-118,3327,a few days or more,95,83,1,cottage,Entire home/apt,2,1,199,2,11250,90,38,Available
-119,3321,within an hour,93,82,3,tent,Entire home/apt,4,2,71,1,90,40,352,Not Available
-120,3321,a few days or more,95,83,1,condo,Entire home/apt,4,2,88,1,7,0,32,Available
-121,3314,a few days or more,95,99,3,cabin,Private room,4,4,148,3,1125,0,535,Available
-122,3311,a few days or more,95,83,1,cabin,Entire home/apt,4,4,220,2,14,0,27,Available
-123,3303,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,150,4,30,87,37,Available
-124,3301,within a few hours,100,92,2,villa,Private room,2,1,59,4,30,144,390,Not Available
-125,3299,a few days or more,95,100,1,tent,Entire home/apt,4,3,169,2,19,0,43,Not Available
-126,3294,a few days or more,95,83,1,bunglow,Entire home/apt,4,3,395,7,365,358,3,Available
-127,3287,a few days or more,95,83,0,cabin,Entire home/apt,2,1,200,3,3,363,27,Available
-128,3287,a few days or more,95,55,1,cottage,Entire home/apt,4,4,245,2,1125,53,84,Available
-129,3285,within an hour,100,81,8,tent,Entire home/apt,2,3,95,7,1125,90,107,Available
-130,3284,a few days or more,95,83,1,villa,Entire home/apt,2,1,99,6,30,0,52,Not Available
-131,3280,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,300,3,11,89,11,Not Available
-132,3280,within a few hours,100,75,1,villa,Entire home/apt,2,1,88,3,12,11,68,Available
-133,3273,within an hour,100,100,1,villa,Entire home/apt,2,1,280,2,30,250,104,Available
-134,3272,a few days or more,95,100,2,cottage,Private room,2,1,249,3,1125,0,82,Not Available
-135,3269,a few days or more,95,0,1,studio apartment,Entire home/apt,3,1,250,2,100,0,109,Available
-136,3267,a few days or more,95,83,1,chalet,Entire home/apt,4,2,295,4,13,0,55,Not Available
-137,3263,a few days or more,95,100,1,studio apartment,Private room,2,1,85,3,7,0,574,Not Available
-138,3258,within an hour,100,100,1,chalet,Entire home/apt,2,1,110,2,1125,350,194,Not Available
-139,3718,a few days or more,95,83,1,studio apartment,Entire home/apt,4,3,133,2,1125,0,8,Not Available
-140,3254,a few days or more,95,83,1,cabin,Entire home/apt,3,2,199,20,20,0,23,Not Available
-141,3252,within an hour,100,0,0,bunglow,Entire home/apt,2,2,45,3,40,41,7,Available
-142,3250,a few days or more,95,83,1,condo,Entire home/apt,2,1,98,4,30,83,7,Not Available
-143,3250,a few days or more,95,83,1,villa,Entire home/apt,4,3,280,180,365,358,78,Available
-144,3410,within a few hours,100,73,1,villa,Entire home/apt,3,1,145,2,30,362,67,Available
-145,3248,a few days or more,95,83,1,cottage,Entire home/apt,4,2,185,3,3,0,21,Not Available
-146,3285,within an hour,100,81,8,chalet,Entire home/apt,3,5,275,7,1124,77,134,Available
-147,3267,a few days or more,95,100,1,bunglow,Entire home/apt,2,1,45,4,7,0,18,Not Available
-148,3238,a few days or more,95,0,1,villa,Entire home/apt,2,1,304,2,100,363,24,Available
-149,3234,a few days or more,95,0,1,cottage,Entire home/apt,2,1,109,3,7,40,123,Available
-150,3233,a few days or more,95,83,2,bunglow,Entire home/apt,2,1,140,4,21,0,52,Available
-151,3232,within a day,100,80,1,bunglow,Entire home/apt,4,2,220,3,60,61,105,Not Available
-152,3231,a few days or more,95,33,1,cabin,Entire home/apt,4,3,175,4,30,214,33,Not Available
-153,3250,a few days or more,95,83,1,tent,Entire home/apt,2,1,149,4,45,0,9,Not Available
-154,3230,within an hour,100,100,2,cottage,Private room,3,3,69,2,30,365,398,Available
-155,3347,a few days or more,95,100,1,bunglow,Private room,3,2,100,2,30,364,239,Available
-156,3228,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,105,5,7,0,73,Not Available
-157,3226,within a day,100,100,3,studio apartment,Entire home/apt,4,3,275,3,1125,336,77,Available
-158,3225,a few days or more,95,0,1,studio apartment,Entire home/apt,4,3,179,3,60,1,60,Available
-159,4029,a few days or more,95,83,1,condo,Entire home/apt,4,3,175,3,14,88,18,Not Available
-160,3260,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,110,3,30,0,46,Available
-161,3218,a few days or more,95,100,1,tent,Entire home/apt,2,2,175,3,14,0,31,Available
-162,3504,a few days or more,95,100,16,studio apartment,Entire home/apt,4,1,150,2,12,0,193,Not Available
-163,3216,a few days or more,95,83,1,chalet,Entire home/apt,2,1,160,2,60,0,149,Available
-164,3211,within a few hours,100,14,1,cabin,Entire home/apt,2,1,125,3,30,0,28,Available
-165,3208,a few days or more,95,83,1,condo,Entire home/apt,2,1,150,2,1125,0,19,Available
-166,3398,within a day,71,93,2,tent,Private room,2,1,85,2,14,331,438,Available
-167,3206,a few days or more,95,83,1,villa,Private room,2,1,100,2,14,0,38,Not Available
-168,3206,a few days or more,95,83,1,cabin,Entire home/apt,4,3,200,3,100,0,54,Not Available
-169,3203,a few days or more,95,83,1,condo,Entire home/apt,5,4,79,2,14,0,96,Not Available
-170,3206,a few days or more,95,83,1,bunglow,Entire home/apt,4,2,225,3,15,365,16,Not Available
-171,3199,a few days or more,95,83,1,bunglow,Private room,2,1,132,1,31,50,31,Not Available
-172,3195,a few days or more,95,50,1,cottage,Entire home/apt,2,1,169,5,1125,87,23,Not Available
-173,3195,a few days or more,95,83,1,chalet,Entire home/apt,5,3,120,5,22,0,11,Available
-174,3320,a few days or more,0,100,2,villa,Entire home/apt,4,5,299,3,30,365,60,Available
-175,3194,a few days or more,95,100,2,villa,Private room,3,3,120,3,21,365,127,Available
-176,3194,a few days or more,95,100,3,studio apartment,Entire home/apt,2,1,76,6,15,0,94,Not Available
-177,3285,within an hour,100,81,8,cottage,Entire home/apt,7,8,729,7,1124,139,110,Not Available
-178,3189,a few days or more,95,60,2,chalet,Entire home/apt,2,1,120,5,60,0,6,Not Available
-179,3189,a few days or more,95,83,1,cabin,Private room,4,2,120,2,20,365,2,Not Available
-180,3188,within an hour,100,10,0,bunglow,Entire home/apt,4,1,159,5,30,88,77,Available
-181,3253,a few days or more,95,83,1,cottage,Entire home/apt,5,3,120,6,6,0,0,Available
-182,3187,a few days or more,95,17,2,villa,Entire home/apt,2,1,160,3,1125,0,23,Not Available
-183,3185,a few days or more,95,83,1,cabin,Entire home/apt,4,3,180,5,365,0,23,Available
-184,3182,a few days or more,95,100,1,chalet,Private room,2,1,110,2,30,343,202,Available
-185,3178,a few days or more,0,100,0,studio apartment,Entire home/apt,2,0,110,2,20,21,31,Not Available
-186,3688,within a few hours,100,100,1,chalet,Entire home/apt,4,2,140,5,30,1,57,Available
-187,3174,a few days or more,95,83,1,chalet,Entire home/apt,4,4,139,4,21,0,7,Available
-188,3217,a few days or more,95,100,1,cottage,Entire home/apt,4,1,309,4,4,365,112,Available
-189,3171,a few days or more,95,67,1,cabin,Entire home/apt,6,5,150,1,28,0,43,Available
-190,3171,a few days or more,95,83,1,tent,Entire home/apt,2,1,110,2,1125,0,23,Not Available
-191,3198,a few days or more,95,83,2,tent,Entire home/apt,2,1,50,5,30,0,18,Not Available
-192,3332,a few days or more,95,100,2,cottage,Entire home/apt,4,3,1750,21,60,365,31,Not Available
-193,3566,a few days or more,95,0,1,bunglow,Entire home/apt,2,1,80,2,30,194,162,Not Available
-194,3168,a few days or more,95,83,1,chalet,Entire home/apt,2,2,107,2,28,0,10,Not Available
-195,3284,a few days or more,95,83,1,tent,Entire home/apt,4,2,120,1,30,0,22,Not Available
-196,3167,within a few hours,100,83,2,chalet,Entire home/apt,2,1,179,4,1125,362,20,Available
-197,3165,a few days or more,95,83,1,bunglow,Entire home/apt,4,4,195,4,20,0,5,Not Available
-198,3163,a few days or more,95,83,1,condo,Entire home/apt,3,2,150,4,30,0,16,Not Available
-199,3161,a few days or more,95,0,2,tent,Entire home/apt,2,1,140,2,1125,360,55,Not Available
-200,3161,a few days or more,95,100,1,chalet,Private room,2,2,83,3,120,0,103,Available
-201,3160,within a day,95,66,1,condo,Private room,2,1,70,3,1125,356,199,Not Available
-202,3201,a few days or more,95,57,1,bunglow,Private room,3,2,65,4,30,365,369,Not Available
-203,3312,a few days or more,95,83,5,villa,Entire home/apt,4,2,150,3,1124,0,10,Not Available
-204,3160,a few days or more,95,83,1,chalet,Entire home/apt,2,1,125,3,21,0,5,Available
-205,3159,a few days or more,95,83,2,bunglow,Entire home/apt,2,2,206,2,10,0,26,Available
-206,3158,a few days or more,95,83,3,studio apartment,Entire home/apt,4,7,245,5,35,0,15,Not Available
-207,3158,a few days or more,95,57,1,chalet,Entire home/apt,5,4,225,3,40,0,34,Not Available
-208,3156,within an hour,100,99,1,cottage,Private room,2,1,124,2,1125,236,458,Available
-209,3155,a few days or more,95,83,1,cottage,Entire home/apt,4,2,94,7,21,0,6,Not Available
-210,3347,a few days or more,95,83,1,tent,Entire home/apt,4,3,300,3,365,0,76,Available
-211,3154,a few days or more,95,83,1,bunglow,Entire home/apt,3,2,193,2,365,0,16,Available
-212,3154,a few days or more,95,83,1,tent,Entire home/apt,2,1,105,7,24,0,10,Not Available
-213,3655,a few days or more,95,83,1,chalet,Entire home/apt,2,1,165,3,50,71,22,Not Available
-214,3154,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,100,4,14,0,10,Available
-215,3154,a few days or more,95,83,1,chalet,Entire home/apt,5,3,170,4,14,0,20,Not Available
-216,3850,a few days or more,95,83,1,cabin,Entire home/apt,4,4,230,2,30,0,1,Available
-217,3297,within an hour,100,100,4,cottage,Entire home/apt,6,6,360,3,90,339,176,Available
-218,3362,a few days or more,95,83,1,cabin,Entire home/apt,4,2,110,180,365,0,39,Available
-219,3151,a few days or more,95,75,1,studio apartment,Entire home/apt,4,2,100,3,1125,1,45,Not Available
-220,3169,within a few hours,100,71,2,cabin,Entire home/apt,6,5,250,26,28,40,1,Available
-221,3151,a few days or more,95,0,1,tent,Entire home/apt,2,1,85,5,1125,280,25,Not Available
-222,3151,a few days or more,95,83,1,tent,Entire home/apt,5,3,120,5,1125,0,17,Available
-223,3150,a few days or more,95,0,1,cabin,Entire home/apt,3,1,120,4,8,193,40,Not Available
-224,3150,a few days or more,95,83,1,bunglow,Entire home/apt,4,4,140,2,1125,0,7,Not Available
-225,3150,a few days or more,95,100,1,chalet,Entire home/apt,4,0,330,2,21,0,11,Available
-226,3176,within a day,50,0,0,chalet,Entire home/apt,2,1,80,3,30,101,145,Not Available
-227,3205,within an hour,100,100,1,tent,Private room,2,1,45,3,7,358,341,Available
-228,3149,within an hour,80,86,7,condo,Entire home/apt,4,2,430,2,365,365,210,Not Available
-229,3154,a few days or more,95,83,1,cottage,Entire home/apt,2,1,200,2,65,0,32,Not Available
-230,3144,a few days or more,95,83,1,bunglow,Entire home/apt,2,4,150,4,1125,0,20,Not Available
-231,3141,a few days or more,95,100,1,chalet,Private room,2,1,42,2,365,326,284,Not Available
-232,3140,within an hour,100,99,2,cottage,Private room,2,1,69,1,10,0,619,Not Available
-233,3195,a few days or more,95,83,1,tent,Entire home/apt,4,2,232,2,1125,0,34,Available
-234,3138,within a few hours,100,80,13,villa,Private room,2,1,87,1,1125,358,371,Available
-235,3531,a few days or more,95,83,1,tent,Private room,2,1,25,1,2,0,195,Not Available
-236,3163,within a day,100,83,1,cottage,Entire home/apt,3,2,235,3,30,90,32,Available
-237,3172,a few days or more,95,83,1,bunglow,Entire home/apt,4,2,450,3,14,0,19,Not Available
-238,3144,a few days or more,0,0,2,condo,Entire home/apt,5,5,275,4,14,0,28,Available
-239,3133,a few days or more,95,83,1,studio apartment,Entire home/apt,2,2,140,4,30,0,18,Not Available
-240,3132,a few days or more,95,83,1,chalet,Entire home/apt,2,1,70,2,12,0,71,Available
-241,3131,a few days or more,95,83,1,tent,Entire home/apt,2,1,150,6,21,0,0,Not Available
-242,3140,within an hour,100,99,2,villa,Private room,2,1,77,1,10,0,383,Not Available
-243,3131,a few days or more,95,0,1,chalet,Entire home/apt,5,4,150,6,30,0,14,Not Available
-244,3193,a few days or more,0,83,1,bunglow,Entire home/apt,2,2,135,2,30,365,7,Not Available
-245,3131,a few days or more,95,83,1,chalet,Entire home/apt,2,0,189,4,28,0,2,Available
-246,2836,a few days or more,95,83,1,tent,Entire home/apt,2,1,125,2,1125,0,36,Available
-247,3128,a few days or more,95,83,1,condo,Entire home/apt,2,1,125,5,1125,0,21,Not Available
-248,3135,within a day,100,75,1,cottage,Entire home/apt,4,4,109,5,350,300,143,Not Available
-249,3149,within a day,100,0,1,cottage,Entire home/apt,2,1,95,2,1125,41,67,Not Available
-250,3124,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,79,4,30,0,15,Available
-251,3123,a few days or more,95,83,1,chalet,Entire home/apt,4,2,105,2,90,0,1,Available
-252,3123,a few days or more,95,83,1,tent,Entire home/apt,2,1,101,5,15,0,22,Not Available
-253,3123,a few days or more,95,100,1,chalet,Entire home/apt,2,1,120,3,10,90,41,Not Available
-254,3122,a few days or more,95,100,0,tent,Entire home/apt,2,1,58,4,90,0,218,Not Available
-255,3122,a few days or more,95,83,1,villa,Entire home/apt,2,1,139,2,1125,0,107,Not Available
-256,3117,a few days or more,95,94,1,villa,Entire home/apt,2,1,110,3,10,0,228,Not Available
-257,3117,a few days or more,95,83,1,condo,Entire home/apt,2,1,150,3,4,89,38,Available
-258,3157,a few days or more,95,25,1,chalet,Entire home/apt,2,0,79,21,40,0,33,Available
-259,3115,a few days or more,95,0,0,chalet,Entire home/apt,2,0,120,3,30,0,28,Not Available
-260,3209,a few days or more,95,83,1,cottage,Entire home/apt,2,1,115,6,21,0,8,Available
-261,3116,within a day,100,67,1,condo,Entire home/apt,2,1,93,2,365,103,104,Not Available
-262,3323,a few days or more,95,0,1,bunglow,Entire home/apt,9,5,210,4,28,25,14,Not Available
-263,3114,a few days or more,95,83,1,cabin,Entire home/apt,2,1,140,3,1125,0,29,Available
-264,3115,within an hour,100,100,2,villa,Hotel room,2,1,74,1,1125,316,682,Not Available
-265,3115,within an hour,100,100,2,villa,Hotel room,2,1,74,1,32,322,578,Not Available
-266,3112,a few days or more,95,83,1,studio apartment,Entire home/apt,4,2,150,4,30,0,4,Not Available
-267,3111,a few days or more,95,0,1,cabin,Private room,4,2,160,2,1125,365,99,Available
-268,3109,a few days or more,95,75,1,condo,Entire home/apt,4,6,325,3,33,0,34,Not Available
-269,3108,a few days or more,95,83,1,cottage,Entire home/apt,4,2,163,4,10,0,12,Available
-270,3108,within an hour,100,50,2,cottage,Entire home/apt,4,2,350,7,365,363,22,Available
-271,3391,within a few hours,100,83,1,tent,Entire home/apt,2,1,87,30,180,365,64,Not Available
-272,3107,a few days or more,95,83,1,tent,Entire home/apt,4,2,139,14,30,0,0,Not Available
-273,3106,a few days or more,95,100,0,tent,Entire home/apt,2,2,120,8,150,224,10,Available
-274,3105,a few days or more,95,83,1,chalet,Entire home/apt,2,1,146,5,120,365,15,Available
-275,3105,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,147,3,21,0,29,Available
-276,3197,a few days or more,95,83,2,chalet,Entire home/apt,2,1,174,2,14,0,26,Available
-277,3134,a few days or more,95,83,1,chalet,Entire home/apt,2,1,129,60,100,0,2,Available
-278,3103,a few days or more,95,83,1,villa,Entire home/apt,4,1,183,2,30,364,54,Available
-279,3329,a few days or more,95,83,1,condo,Entire home/apt,2,1,190,2,16,0,30,Not Available
-280,3101,within a few hours,100,88,2,bunglow,Entire home/apt,3,3,150,21,600,0,21,Not Available
-281,3100,a few days or more,95,83,1,condo,Entire home/apt,2,1,69,2,9,0,4,Not Available
-282,3099,a few days or more,95,83,1,condo,Entire home/apt,4,2,100,2,365,0,16,Not Available
-283,3159,within an hour,100,100,1,chalet,Entire home/apt,2,2,111,5,120,29,52,Available
-284,3098,a few days or more,95,83,1,tent,Entire home/apt,2,1,150,2,2,0,30,Not Available
-285,3097,a few days or more,95,100,2,studio apartment,Entire home/apt,2,1,295,3,30,0,47,Available
-286,3099,a few days or more,95,83,1,tent,Entire home/apt,2,2,200,180,180,365,0,Available
-287,3216,a few days or more,95,100,1,studio apartment,Private room,2,1,95,1,14,180,433,Available
-288,3093,a few days or more,95,100,7,bunglow,Private room,2,2,65,3,20,286,299,Available
-289,3093,a few days or more,95,83,1,cabin,Entire home/apt,3,2,108,4,10,0,17,Available
-290,3221,a few days or more,95,50,1,bunglow,Entire home/apt,2,1,120,28,60,264,82,Available
-291,3090,within an hour,100,100,2,studio apartment,Private room,3,2,185,2,1125,357,421,Not Available
-292,3115,within a day,100,50,1,chalet,Entire home/apt,4,2,250,7,180,3,120,Not Available
-293,3088,a few days or more,95,0,3,condo,Entire home/apt,2,2,95,1,4,3,11,Available
-294,3087,a few days or more,95,100,1,studio apartment,Private room,2,1,70,1,30,98,702,Not Available
-295,3086,within a day,100,0,1,bunglow,Entire home/apt,4,4,120,7,21,173,21,Not Available
-296,3217,a few days or more,95,100,1,villa,Entire home/apt,2,1,98,3,365,0,53,Available
-297,3087,within a few hours,100,0,1,villa,Entire home/apt,3,0,95,2,5,363,60,Not Available
-298,3083,a few days or more,95,50,1,bunglow,Entire home/apt,4,2,175,7,100,0,170,Not Available
-299,3084,a few days or more,95,25,1,cottage,Entire home/apt,2,1,90,3,28,0,24,Not Available
-300,3092,a few days or more,95,0,1,cabin,Entire home/apt,2,1,136,2,3,41,25,Available
-301,3082,a few days or more,95,33,2,condo,Entire home/apt,4,4,240,5,40,0,85,Not Available
-302,3130,within a day,100,50,1,tent,Entire home/apt,2,1,150,3,1125,363,9,Not Available
-303,3137,a few days or more,95,50,1,condo,Entire home/apt,4,4,132,2,21,0,9,Not Available
-304,3103,within a few hours,100,0,1,villa,Entire home/apt,2,1,219,1,1125,41,120,Available
-305,3077,a few days or more,95,83,2,villa,Entire home/apt,2,1,110,3,150,89,258,Not Available
-306,3091,a few days or more,95,83,1,cottage,Entire home/apt,4,10,275,4,30,40,27,Not Available
-307,3078,a few days or more,95,88,1,villa,Private room,2,1,90,3,10,0,186,Available
-308,3076,a few days or more,95,83,1,cabin,Entire home/apt,2,1,311,5,32,362,48,Available
-309,3075,a few days or more,95,83,1,cottage,Entire home/apt,2,1,121,3,21,0,5,Available
-310,3075,a few days or more,95,83,1,villa,Entire home/apt,2,1,149,2,1125,0,6,Available
-311,3074,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,99,1,14,0,59,Not Available
-312,3074,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,130,3,30,0,24,Not Available
-313,3304,a few days or more,95,83,1,chalet,Entire home/apt,2,1,110,6,30,0,11,Not Available
-314,3070,within an hour,100,50,2,tent,Entire home/apt,4,3,156,4,150,0,85,Not Available
-315,3069,a few days or more,95,100,0,tent,Private room,3,2,72,2,180,364,184,Available
-316,3069,a few days or more,95,83,0,villa,Entire home/apt,2,1,149,10,30,0,0,Not Available
-317,3067,within an hour,100,83,0,chalet,Entire home/apt,2,1,108,2,365,8,29,Available
-318,3064,within an hour,100,90,0,cabin,Entire home/apt,4,4,175,3,1125,111,115,Available
-319,3273,a few days or more,95,0,1,condo,Entire home/apt,2,1,250,1,14,364,53,Not Available
-320,3064,a few days or more,95,50,0,condo,Entire home/apt,2,1,85,1,14,0,3,Not Available
-321,3063,a few days or more,95,100,0,cottage,Entire home/apt,2,1,145,6,15,1,106,Available
-322,3063,a few days or more,95,100,0,bunglow,Private room,2,1,75,3,14,0,84,Not Available
-323,3116,within a day,100,100,3,cabin,Private room,2,0,75,3,90,364,354,Not Available
-324,3198,a few days or more,95,83,1,villa,Entire home/apt,2,1,99,2,5,0,28,Available
-325,3484,within an hour,100,100,5,chalet,Entire home/apt,4,2,280,7,60,83,185,Available
-326,3060,a few days or more,95,83,0,chalet,Entire home/apt,4,2,150,5,30,0,10,Not Available
-327,3055,a few days or more,95,83,1,villa,Entire home/apt,4,1,40,2,365,0,2,Not Available
-328,3058,a few days or more,95,100,2,chalet,Private room,1,1,99,3,90,40,77,Available
-329,3058,a few days or more,95,100,2,cottage,Entire home/apt,3,2,111,6,10,0,149,Available
-330,3055,within an hour,100,100,3,chalet,Entire home/apt,4,3,399,2,1125,328,39,Available
-331,3055,a few days or more,95,0,1,villa,Entire home/apt,3,2,175,3,10,87,49,Available
-332,3336,within a few hours,90,68,2,cottage,Entire home/apt,10,24,206,2,60,348,113,Available
-333,3054,a few days or more,95,0,1,studio apartment,Entire home/apt,2,2,150,30,30,365,39,Available
-334,3053,within an hour,86,100,15,villa,Entire home/apt,4,2,165,7,365,55,16,Available
-335,3053,within an hour,86,100,15,condo,Entire home/apt,4,2,302,7,365,32,22,Available
-336,3053,within an hour,86,100,15,cabin,Entire home/apt,4,2,307,7,365,6,20,Not Available
-337,3053,within an hour,86,100,15,tent,Entire home/apt,4,2,307,7,365,55,21,Available
-338,3091,a few days or more,95,57,2,cottage,Private room,2,1,116,2,10,365,131,Not Available
-339,3070,within an hour,100,50,2,chalet,Entire home/apt,2,1,136,2,100,40,80,Not Available
-340,3095,a few days or more,95,83,1,tent,Entire home/apt,4,1,130,4,1125,0,22,Not Available
-341,3088,a few days or more,95,0,3,cabin,Private room,1,1,60,2,5,365,40,Not Available
-342,3046,a few days or more,95,75,1,condo,Entire home/apt,4,2,219,3,30,251,69,Available
-343,3045,within a day,100,100,1,cabin,Entire home/apt,2,1,149,4,7,1,26,Not Available
-344,3045,within a few hours,100,98,1,studio apartment,Entire home/apt,4,3,199,4,250,0,260,Available
-345,3045,a few days or more,95,100,1,cabin,Private room,2,2,110,2,30,237,162,Not Available
-346,2431,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,89,3,21,0,18,Available
-347,3396,a few days or more,95,30,1,villa,Entire home/apt,4,1,100,4,60,0,39,Available
-348,3042,a few days or more,95,50,1,cottage,Entire home/apt,4,2,235,2,180,0,99,Not Available
-349,3042,within a day,100,50,1,cottage,Entire home/apt,4,2,346,3,60,178,104,Not Available
-350,3088,a few days or more,95,0,3,chalet,Entire home/apt,6,5,225,2,14,365,9,Not Available
-351,3041,a few days or more,95,83,1,chalet,Entire home/apt,2,2,180,6,30,285,42,Not Available
-352,3076,a few days or more,40,0,0,villa,Entire home/apt,2,0,90,4,1125,331,7,Available
-353,3041,a few days or more,95,100,1,bunglow,Shared room,4,4,228,4,30,0,63,Available
-354,3040,within an hour,100,100,2,studio apartment,Private room,1,1,42,3,365,354,251,Not Available
-355,3074,within an hour,100,50,1,condo,Entire home/apt,2,0,221,3,1125,273,61,Not Available
-356,3055,within an hour,100,100,3,cottage,Private room,2,1,109,2,1125,0,262,Not Available
-357,3034,a few days or more,95,83,1,bunglow,Entire home/apt,4,2,135,2,21,0,23,Available
-358,3034,a few days or more,95,83,1,tent,Entire home/apt,6,6,250,3,35,0,10,Available
-359,3216,within an hour,96,100,3,tent,Private room,2,1,59,1,4,149,447,Not Available
-360,3853,within an hour,100,100,2,chalet,Private room,2,1,45,2,8,365,188,Available
-361,3033,a few days or more,95,83,1,tent,Entire home/apt,2,1,130,2,4,0,20,Not Available
-362,3149,a few days or more,95,50,0,bunglow,Private room,2,1,66,2,1125,132,12,Available
-363,3031,within a few hours,100,86,0,cottage,Private room,2,1,80,3,31,365,409,Not Available
-364,3077,a few days or more,95,83,2,cabin,Entire home/apt,2,2,120,3,150,89,240,Available
-365,3030,a few days or more,95,83,1,villa,Entire home/apt,2,1,110,3,7,0,2,Available
-366,3107,within a few hours,100,100,6,villa,Private room,16,32,83,3,14,177,73,Available
-367,3029,a few days or more,95,83,1,cottage,Entire home/apt,3,3,176,3,30,0,12,Available
-368,3028,a few days or more,95,83,1,villa,Entire home/apt,2,0,159,2,30,3,28,Available
-369,3028,a few days or more,95,83,1,condo,Entire home/apt,4,2,165,2,900,0,27,Not Available
-370,3028,a few days or more,95,83,1,cottage,Entire home/apt,3,1,118,3,365,0,47,Not Available
-371,3027,a few days or more,95,83,1,tent,Entire home/apt,4,3,399,1,10,0,48,Not Available
-372,3169,within a few hours,88,61,1,chalet,Entire home/apt,2,1,90,21,1125,90,34,Available
-373,3126,a few days or more,95,83,1,chalet,Entire home/apt,3,1,160,1,5,0,1,Available
-374,3033,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,118,3,7,0,68,Available
-375,3183,within an hour,100,100,0,studio apartment,Entire home/apt,4,3,200,2,1124,301,783,Available
-376,3025,a few days or more,95,83,1,tent,Entire home/apt,2,1,110,1,1125,365,4,Not Available
-377,3541,a few days or more,95,67,1,chalet,Entire home/apt,4,2,125,3,1125,225,67,Available
-378,3484,within an hour,100,100,5,villa,Entire home/apt,5,3,282,90,365,84,175,Available
-379,3138,within a few hours,100,100,2,villa,Entire home/apt,4,3,99,2,7,0,4,Available
-380,3021,within a day,57,0,1,villa,Entire home/apt,4,3,125,3,365,320,30,Available
-381,3060,a few days or more,95,20,0,chalet,Entire home/apt,2,1,80,1,365,162,57,Not Available
-382,3021,within a few hours,100,100,1,tent,Private room,2,1,160,2,1125,89,312,Available
-383,3020,a few days or more,95,100,1,cottage,Private room,2,1,75,4,21,364,317,Available
-384,3019,a few days or more,95,83,1,cabin,Entire home/apt,4,2,175,3,21,0,22,Available
-385,3018,a few days or more,95,83,1,cottage,Entire home/apt,2,1,150,1,60,0,1,Available
-386,3017,a few days or more,95,83,1,chalet,Entire home/apt,4,0,150,4,14,365,18,Not Available
-387,3318,a few days or more,0,67,1,cottage,Entire home/apt,3,2,150,2,1124,89,84,Not Available
-388,3016,within an hour,100,97,1,cabin,Private room,2,1,45,1,30,327,772,Not Available
-389,3067,a few days or more,95,83,0,villa,Entire home/apt,2,2,144,2,365,222,39,Available
-390,3703,within a day,50,100,2,cabin,Private room,4,2,119,30,1125,0,37,Available
-391,3098,within a day,100,100,2,bunglow,Entire home/apt,3,2,349,2,20,345,42,Not Available
-392,3009,a few days or more,95,0,1,tent,Entire home/apt,4,3,200,2,15,0,39,Available
-393,3008,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,132,3,22,0,39,Available
-394,3008,a few days or more,95,100,1,cottage,Private room,2,1,126,2,1125,90,465,Not Available
-395,3063,within an hour,100,98,0,cottage,Private room,2,1,65,1,90,358,247,Not Available
-396,3008,a few days or more,95,83,1,villa,Entire home/apt,2,1,122,7,60,237,12,Not Available
-397,3551,a few days or more,95,83,1,cabin,Entire home/apt,2,1,85,2,1124,0,30,Available
-398,3005,a few days or more,95,100,0,chalet,Entire home/apt,4,2,239,3,1125,0,5,Available
-399,3002,a few days or more,95,83,1,cabin,Entire home/apt,4,3,193,4,26,0,24,Not Available
-400,3006,a few days or more,95,83,1,cabin,Entire home/apt,2,1,60,3,14,41,38,Not Available
-401,3000,a few days or more,95,83,1,tent,Entire home/apt,3,3,150,2,1125,0,0,Not Available
-402,3000,a few days or more,95,83,1,chalet,Entire home/apt,4,4,200,2,30,0,37,Available
-403,3000,a few days or more,95,100,1,studio apartment,Private room,2,2,125,2,28,259,300,Available
-404,3028,a few days or more,95,83,1,tent,Entire home/apt,2,1,115,2,1125,0,46,Available
-405,3137,a few days or more,95,0,1,cottage,Entire home/apt,4,6,180,4,10,48,14,Available
-406,3587,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,85,13,1125,0,21,Available
-407,3087,a few days or more,95,83,1,cottage,Entire home/apt,2,1,79,4,14,0,3,Not Available
-408,3638,within a day,100,100,1,bunglow,Entire home/apt,4,2,306,3,30,0,4,Not Available
-409,2993,a few days or more,95,83,1,cottage,Entire home/apt,4,2,300,2,15,0,25,Not Available
-410,2967,within a few hours,100,100,1,chalet,Entire home/apt,4,5,150,4,1125,70,45,Not Available
-411,2992,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,165,5,1124,0,29,Available
-412,2991,a few days or more,95,83,1,tent,Entire home/apt,2,1,190,5,1125,0,17,Not Available
-413,2990,within an hour,100,96,2,tent,Entire home/apt,4,2,102,1,30,224,691,Not Available
-414,2996,a few days or more,95,83,1,tent,Entire home/apt,4,2,800,30,60,0,70,Available
-415,3408,within a few hours,100,100,3,cottage,Entire home/apt,4,4,187,7,30,180,328,Not Available
-416,2980,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,109,3,7,0,34,Available
-417,3180,a few days or more,95,83,1,cottage,Entire home/apt,2,1,175,2,14,0,8,Not Available
-418,2977,within a few hours,100,84,1,villa,Private room,4,3,120,2,35,336,105,Available
-419,2976,a few days or more,95,83,1,villa,Entire home/apt,2,1,80,2,30,0,7,Not Available
-420,3460,a few days or more,95,50,1,studio apartment,Entire home/apt,4,2,180,1,30,40,92,Not Available
-421,3416,a few days or more,95,83,1,condo,Entire home/apt,2,1,110,500,1125,365,2,Not Available
-422,2973,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,139,3,30,19,36,Available
-423,2971,a few days or more,95,100,2,cabin,Private room,2,1,135,2,50,352,51,Not Available
-424,2971,a few days or more,95,67,1,chalet,Private room,2,2,117,3,28,180,458,Not Available
-425,2971,within a few hours,100,100,3,cabin,Private room,3,2,77,1,1125,341,329,Available
-426,2974,a few days or more,95,83,1,chalet,Entire home/apt,6,8,359,4,360,365,28,Available
-427,2971,a few days or more,95,100,2,studio apartment,Private room,2,2,160,2,40,251,44,Available
-428,3110,within a few hours,100,100,1,studio apartment,Private room,3,2,89,2,1125,343,512,Not Available
-429,2967,within a few hours,100,72,4,villa,Private room,2,1,120,4,7,364,47,Not Available
-430,2965,a few days or more,95,14,2,cottage,Entire home/apt,2,1,130,2,30,364,22,Not Available
-431,2964,a few days or more,95,100,2,tent,Entire home/apt,4,3,90,2,1125,177,40,Available
-432,2965,a few days or more,95,14,2,cottage,Entire home/apt,2,1,120,2,30,365,30,Available
-433,2962,within a day,100,0,1,tent,Entire home/apt,4,2,185,2,30,40,30,Not Available
-434,2975,a few days or more,95,83,1,bunglow,Entire home/apt,3,1,188,2,1125,0,33,Not Available
-435,2961,a few days or more,95,83,1,studio apartment,Entire home/apt,4,2,226,3,31,365,0,Not Available
-436,3631,within a few hours,100,100,2,villa,Entire home/apt,4,1,239,4,364,40,47,Not Available
-437,3329,a few days or more,95,83,1,tent,Private room,1,1,68,2,99,0,49,Available
-438,2958,a few days or more,95,100,1,villa,Entire home/apt,4,1,250,2,21,0,59,Not Available
-439,2958,a few days or more,95,83,1,villa,Entire home/apt,2,1,150,2,1125,0,12,Not Available
-440,2955,within an hour,100,100,1,condo,Entire home/apt,2,1,120,3,1125,0,80,Not Available
-441,3613,a few days or more,95,100,1,condo,Private room,2,1,59,2,60,356,323,Available
-442,3273,a few days or more,95,0,0,villa,Private room,2,1,85,2,15,80,56,Available
-443,2947,within a day,100,86,1,studio apartment,Entire home/apt,4,3,210,3,30,247,58,Available
-444,2947,within an hour,100,44,1,condo,Entire home/apt,4,4,245,2,30,365,55,Available
-445,2946,a few days or more,0,83,2,cabin,Entire home/apt,2,2,105,2,60,0,20,Not Available
-446,3574,a few days or more,95,83,1,cottage,Entire home/apt,1,1,125,2,5,0,0,Not Available
-447,2945,a few days or more,95,100,1,studio apartment,Entire home/apt,4,4,399,4,30,0,56,Not Available
-448,2944,within an hour,100,100,1,tent,Private room,4,2,150,2,270,356,108,Not Available
-449,3131,a few days or more,95,100,1,condo,Private room,3,0,125,3,200,0,34,Not Available
-450,2943,within a day,50,100,1,studio apartment,Entire home/apt,2,1,139,2,21,87,33,Not Available
-451,2943,a few days or more,95,83,1,bunglow,Entire home/apt,2,1,200,14,90,0,24,Not Available
-452,3448,a few days or more,95,83,1,chalet,Entire home/apt,4,2,200,5,30,138,10,Available
-453,3185,a few days or more,95,83,1,tent,Entire home/apt,2,1,150,2,28,0,32,Available
-454,3010,within a few hours,100,98,1,studio apartment,Entire home/apt,4,1,75,2,365,312,291,Available
-455,2938,a few days or more,95,100,1,bunglow,Entire home/apt,2,1,119,2,2,119,72,Not Available
-456,3386,a few days or more,95,0,1,chalet,Entire home/apt,4,6,110,16,35,214,7,Not Available
-457,2937,within a few hours,100,65,2,tent,Private room,16,18,500,2,1125,114,129,Not Available
-458,2935,a few days or more,95,100,1,bunglow,Entire home/apt,5,4,175,3,30,163,70,Available
-459,2934,within an hour,100,90,1,cabin,Private room,4,4,185,2,7,203,417,Not Available
-460,2934,a few days or more,95,50,1,bunglow,Entire home/apt,2,1,130,4,1125,11,65,Not Available
-461,2934,a few days or more,0,83,1,condo,Entire home/apt,4,4,195,14,60,62,16,Available
-462,3010,a few days or more,95,0,1,villa,Entire home/apt,2,1,90,6,20,177,9,Available
-463,3064,a few days or more,95,83,0,bunglow,Entire home/apt,2,1,145,15,27,0,7,Not Available
-464,2931,within a few hours,100,100,1,cottage,Private room,2,1,90,3,34,256,351,Available
-465,2929,a few days or more,95,100,2,cabin,Private room,2,1,85,2,365,298,184,Available
-466,2928,a few days or more,95,83,1,studio apartment,Entire home/apt,2,1,125,2,5,0,5,Available
-467,2927,a few days or more,95,0,1,cabin,Entire home/apt,4,3,140,3,30,225,43,Available
-468,2926,a few days or more,95,83,1,studio apartment,Entire home/apt,5,5,160,3,7,0,11,Not Available
-469,2925,within a day,100,100,2,bunglow,Private room,2,2,72,2,31,1,5,Not Available
-470,2925,within a day,100,100,2,cottage,Private room,2,2,79,2,1125,341,98,Available
-471,2967,within a few hours,100,72,4,villa,Entire home/apt,4,3,300,4,10,347,13,Available
-472,2957,within a day,78,30,1,tent,Entire home/apt,6,5,275,3,365,344,24,Available
-473,3252,a few days or more,95,83,1,tent,Entire home/apt,6,2,240,5,25,0,24,Not Available
-474,3178,a few days or more,95,80,1,cabin,Entire home/apt,4,3,355,3,1125,365,23,Available
-475,2916,a few days or more,95,100,1,chalet,Private room,3,3,95,2,7,103,165,Not Available
-476,3055,within an hour,100,90,1,studio apartment,Private room,2,1,54,2,1124,0,255,Available
-477,3045,a few days or more,95,83,1,chalet,Entire home/apt,4,2,145,5,1125,41,7,Not Available
-478,3074,within a few hours,100,14,0,tent,Entire home/apt,2,1,50,5,31,100,9,Available
-479,2908,within an hour,100,100,1,tent,Shared room,2,2,80,2,30,1,300,Available
-480,3122,a few days or more,95,83,1,cabin,Entire home/apt,4,2,199,4,21,364,31,Available
-481,2993,within an hour,100,100,1,villa,Private room,2,2,74,2,28,287,334,Not Available
-482,2904,a few days or more,95,83,1,condo,Entire home/apt,4,4,300,3,21,0,19,Not Available
-483,2904,a few days or more,95,83,1,studio apartment,Private room,1,26,77,2,6,364,1,Available
-484,2903,a few days or more,95,50,1,studio apartment,Entire home/apt,6,5,400,2,20,0,97,Not Available
-485,2903,a few days or more,95,83,1,villa,Entire home/apt,4,4,153,2,120,0,93,Not Available
-486,2900,within an hour,100,20,2,bunglow,Entire home/apt,2,0,145,2,14,238,45,Available
-487,2900,a few days or more,95,83,1,tent,Private room,2,1,129,4,1125,315,47,Available
-488,2900,a few days or more,95,83,1,bunglow,Entire home/apt,4,3,250,10,1125,365,16,Available
-489,3090,a few days or more,0,96,2,chalet,Private room,2,0,121,2,30,365,110,Not Available
-490,2990,within an hour,100,92,1,condo,Private room,2,1,30,2,90,347,490,Not Available
-491,2899,a few days or more,95,100,1,studio apartment,Entire home/apt,2,1,145,4,6,0,51,Not Available
-492,2898,a few days or more,0,0,1,condo,Entire home/apt,4,4,119,2,21,329,19,Available
-493,2937,a few days or more,95,0,1,studio apartment,Entire home/apt,6,4,125,4,7,41,1,Not Available
-494,2986,within a day,100,50,2,villa,Private room,2,2,134,3,1125,50,41,Available
-495,3938,within an hour,100,100,2,villa,Private room,2,1,98,2,1124,191,236,Available
-496,2614,a few days or more,95,100,1,bunglow,Private room,4,3,114,3,7,89,10,Not Available
-497,2894,a few days or more,95,83,1,villa,Entire home/apt,2,1,170,5,11,0,29,Not Available
-498,2894,within a few hours,100,0,1,chalet,Entire home/apt,3,2,140,3,1125,365,2,Not Available
-499,2894,a few days or more,95,100,1,cottage,Entire home/apt,4,6,145,3,7,26,15,Not Available
+0,4539,within a day,40,100,1,cabin,Private room,2,2,59,3,1125,139,278,Not Available
+1,4105,within a day,40,100,2,tent,Private room,2,1,129,1,365,0,339,Available
+2,4117,within a day,40,0,2,cottage,Entire home/apt,3,1,125,14,180,251,5,Available
+3,3994,within an hour,100,100,1,tent,Private room,2,1,125,2,730,136,219,Available
+4,3943,within an hour,100,87,2,cottage,Private room,2,1,75,2,1825,338,336,Not Available
+5,3943,within an hour,100,87,2,cabin,Private room,1,1,55,2,730,355,480,Available
+6,3929,within a day,40,0,1,bunglow,Entire home/apt,4,3,219,3,365,0,32,Available
+7,3872,within a day,40,50,1,chalet,Entire home/apt,3,1,160,4,35,0,89,Available
+8,3863,within a day,40,0,0,bunglow,Entire home/apt,4,4,211,3,30,362,59,Not Available
+9,3863,within an hour,100,25,4,condo,Entire home/apt,2,1,115,4,1125,117,179,Not Available
+10,3844,within a day,40,68,1,cottage,Entire home/apt,2,1,150,3,1825,0,3,Not Available
+11,3827,within an hour,100,93,1,cottage,Entire home/apt,3,2,136,2,1124,244,368,Available
+12,3826,within a day,40,0,0,studio apartment,Entire home/apt,4,2,250,3,365,365,103,Available
+13,3821,within a day,50,0,1,studio apartment,Entire home/apt,6,3,115,4,15,135,17,Available
+14,3821,within a day,40,100,1,chalet,Private room,2,1,118,2,365,343,307,Not Available
+15,3865,within a day,40,68,1,cottage,Private room,2,1,75,2,20,0,102,Available
+16,3806,within a day,40,100,1,studio apartment,Private room,2,0,40,7,150,0,354,Not Available
+17,3805,within a day,40,100,1,studio apartment,Private room,2,1,75,3,14,5,309,Available
+18,3790,within a day,40,68,1,cottage,Private room,2,1,90,1,365,0,179,Available
+19,3788,within a day,40,100,1,villa,Entire home/apt,4,2,222,3,24,0,32,Not Available
+20,3786,within a day,40,68,1,cottage,Private room,2,1,65,2,7,315,157,Available
+21,3786,within a day,40,33,1,bunglow,Entire home/apt,4,2,149,4,21,0,95,Not Available
+22,3780,within a day,70,55,3,cottage,Entire home/apt,2,2,155,1,681,179,0,Not Available
+23,3768,within an hour,100,98,4,chalet,Private room,4,2,135,3,365,321,124,Not Available
+24,3745,within a day,40,100,1,cabin,Entire home/apt,2,1,135,2,8,334,30,Not Available
+25,3741,within a day,40,68,1,studio apartment,Entire home/apt,4,1,750,30,30,0,0,Not Available
+26,3741,within a day,40,68,1,cabin,Entire home/apt,2,1,189,3,30,0,103,Available
+27,3707,within a day,50,50,3,cottage,Entire home/apt,2,1,106,2,30,0,16,Available
+28,3705,within a day,50,100,2,bunglow,Private room,2,2,45,1,360,63,659,Available
+29,3705,within a day,50,100,2,condo,Private room,2,1,98,1,30,0,579,Not Available
+30,3703,within a day,40,91,1,condo,Private room,2,1,40,1,15,0,108,Available
+31,3661,within a day,67,93,3,condo,Private room,3,2,55,3,90,0,254,Not Available
+32,3661,within a day,67,93,3,bunglow,Private room,2,1,48,3,100,0,324,Not Available
+33,3660,within a few hours,100,100,2,cabin,Private room,2,1,80,4,30,330,33,Not Available
+34,3660,within a few hours,100,100,2,villa,Private room,2,2,80,4,31,296,16,Available
+35,3655,within a day,40,100,1,condo,Hotel room,4,2,145,3,90,0,64,Available
+36,3641,within a day,40,68,3,villa,Private room,1,1,109,2,1125,0,218,Available
+37,3864,within an hour,100,100,1,chalet,Entire home/apt,4,2,109,2,28,332,859,Available
+38,3633,within a few hours,100,100,2,cottage,Entire home/apt,4,2,249,3,365,364,131,Not Available
+39,3630,within an hour,100,50,1,cabin,Entire home/apt,2,1,45,2,35,73,157,Not Available
+40,3629,within a day,40,100,29,tent,Hotel room,2,1,109,3,60,41,94,Available
+41,4085,within an hour,100,0,1,chalet,Entire home/apt,2,2,68,30,730,150,11,Not Available
+42,3613,within a day,40,100,1,cabin,Private room,2,1,95,1,18,0,44,Available
+43,3855,within an hour,100,100,2,villa,Private room,2,2,45,2,8,357,196,Available
+44,3803,within an hour,100,68,1,bunglow,Entire home/apt,2,1,150,2,365,362,37,Not Available
+45,3585,within a day,40,68,1,chalet,Entire home/apt,4,2,100,5,30,0,3,Not Available
+46,3561,within a day,40,68,1,bunglow,Private room,2,1,80,2,730,0,29,Not Available
+47,3553,within a day,40,68,0,villa,Entire home/apt,3,1,165,2,1125,89,24,Not Available
+48,3549,within a day,40,68,2,bunglow,Entire home/apt,3,2,145,4,30,0,86,Not Available
+49,3542,within a day,40,68,1,bunglow,Private room,2,1,37,2,7,0,4,Not Available
+50,3533,within a day,40,68,1,condo,Entire home/apt,2,1,150,7,15,0,21,Available
+51,3526,within a day,40,67,1,tent,Entire home/apt,2,1,125,3,21,365,56,Not Available
+52,3523,within a day,100,71,1,villa,Entire home/apt,4,4,112,2,5,192,41,Available
+53,3641,within a day,40,68,3,tent,Private room,2,1,118,2,1124,0,256,Not Available
+54,3519,within a day,40,68,1,bunglow,Entire home/apt,2,1,157,7,13,135,22,Available
+55,3518,within a day,100,100,1,condo,Entire home/apt,2,1,150,5,180,70,63,Not Available
+56,3517,within a day,40,68,1,cottage,Entire home/apt,3,3,120,3,5,0,103,Not Available
+57,3516,within a day,40,78,0,bunglow,Entire home/apt,4,2,249,2,1125,178,5,Not Available
+58,3516,within a day,40,0,1,cottage,Entire home/apt,6,3,97,4,20,364,48,Available
+59,3512,within a day,40,100,1,studio apartment,Entire home/apt,2,1,159,2,31,0,139,Not Available
+60,4108,within a day,40,88,1,cottage,Entire home/apt,4,2,200,2,30,355,102,Not Available
+61,3507,within a day,100,100,2,cabin,Entire home/apt,3,2,275,21,100,351,27,Available
+62,3503,within a day,40,68,1,tent,Entire home/apt,2,2,125,30,365,0,15,Available
+63,3496,within an hour,100,100,1,cabin,Private room,4,3,113,2,365,194,186,Not Available
+64,3492,within a day,40,100,2,bunglow,Private room,2,1,72,2,31,88,598,Available
+65,3485,within a day,40,68,1,cabin,Entire home/apt,2,1,129,3,1125,0,41,Available
+66,3483,within a day,40,68,1,villa,Entire home/apt,3,2,99,5,30,0,42,Available
+67,3594,within a day,67,60,1,villa,Entire home/apt,2,3,71,5,30,145,42,Available
+68,3478,within a day,40,68,1,cottage,Entire home/apt,4,4,284,3,60,0,24,Not Available
+69,3476,within a day,40,68,1,condo,Entire home/apt,2,1,99,1,730,0,2,Available
+70,3468,within a day,40,68,1,cottage,Private room,3,3,50,2,60,358,183,Available
+71,3501,within a day,40,67,1,tent,Entire home/apt,4,3,246,3,365,69,20,Not Available
+72,3573,within a day,40,68,1,studio apartment,Entire home/apt,2,1,151,2,30,0,41,Available
+73,3464,within a few hours,100,73,1,cottage,Private room,3,2,99,3,50,209,168,Not Available
+74,3459,within a day,40,100,2,villa,Private room,2,1,245,2,760,344,10,Available
+75,3454,within an hour,100,100,1,chalet,Entire home/apt,2,1,92,3,21,0,132,Available
+76,3443,within a day,40,68,1,tent,Entire home/apt,4,2,125,14,60,0,16,Not Available
+77,3477,within a day,40,100,2,chalet,Entire home/apt,4,3,215,2,180,97,104,Not Available
+78,3423,within a day,58,68,2,tent,Entire home/apt,4,2,145,30,365,1,21,Not Available
+79,3422,within a day,40,92,1,cabin,Private room,2,0,122,2,365,360,343,Not Available
+80,3418,within a day,40,68,1,bunglow,Entire home/apt,2,1,79,4,50,0,102,Available
+81,3417,within a day,40,68,1,tent,Entire home/apt,2,2,449,1,1125,179,13,Available
+82,3416,within a day,40,68,1,tent,Entire home/apt,4,2,385,4,30,365,11,Available
+83,3413,within a day,40,100,1,condo,Private room,2,1,149,2,21,344,81,Available
+84,3412,within a day,40,68,1,cabin,Entire home/apt,2,1,296,3,30,347,49,Available
+85,3410,within an hour,100,85,2,cabin,Private room,4,2,125,2,365,355,90,Available
+86,3408,within a day,40,68,1,cabin,Entire home/apt,5,6,250,5,30,0,7,Not Available
+87,3406,within a day,40,68,1,tent,Entire home/apt,4,1,8000,30,30,365,8,Available
+88,3401,within a day,40,100,1,bunglow,Private room,2,1,88,3,30,0,113,Available
+89,3397,within a day,40,68,1,condo,Entire home/apt,2,1,85,2,21,9,22,Available
+90,3390,within an hour,100,100,1,tent,Private room,2,1,45,3,30,7,220,Not Available
+91,3387,within a day,40,68,1,cabin,Entire home/apt,2,1,145,5,30,0,6,Available
+92,3384,within a day,40,68,1,tent,Entire home/apt,2,1,125,2,15,89,43,Available
+93,3380,within a day,40,68,2,villa,Entire home/apt,2,1,125,4,760,0,20,Available
+94,3373,within a day,40,68,1,tent,Entire home/apt,3,3,116,10,365,0,3,Not Available
+95,3379,within a day,40,50,1,tent,Entire home/apt,12,12,650,2,90,269,109,Not Available
+96,3451,within a day,80,25,1,chalet,Entire home/apt,4,1,95,4,28,347,1,Available
+97,3367,within an hour,100,100,2,studio apartment,Private room,2,1,78,3,365,306,280,Not Available
+98,3367,within an hour,100,100,2,villa,Private room,2,1,78,3,365,1,324,Available
+99,3434,within a day,40,68,2,bunglow,Private room,2,1,80,2,31,0,8,Not Available
+100,3361,within a day,40,100,1,tent,Private room,2,1,105,3,1125,365,209,Available
+101,3366,within a day,40,0,2,condo,Private room,2,1,115,7,14,358,25,Available
+102,3358,within a day,40,68,1,cabin,Entire home/apt,3,3,74,1,365,0,5,Not Available
+103,3353,within a day,40,100,1,cabin,Entire home/apt,2,1,195,5,9,49,90,Available
+104,3347,within a day,40,68,1,tent,Entire home/apt,4,2,125,3,25,0,83,Not Available
+105,3344,within a day,40,68,1,cottage,Entire home/apt,5,3,112,5,1125,0,14,Not Available
+106,3771,within a few hours,82,77,2,condo,Entire home/apt,2,2,51,2,1125,327,101,Not Available
+107,3342,within a day,40,80,1,villa,Entire home/apt,2,1,95,3,30,0,52,Not Available
+108,3342,within a day,83,62,1,tent,Entire home/apt,3,1,135,2,1125,132,89,Not Available
+109,3340,within a day,40,100,1,cabin,Entire home/apt,4,4,275,1,25,363,129,Not Available
+110,3457,within a day,40,83,0,cabin,Entire home/apt,4,2,200,3,21,208,21,Available
+111,3338,within a few hours,90,68,2,chalet,Entire home/apt,16,16,600,2,30,363,99,Available
+112,3457,within a day,40,83,0,chalet,Entire home/apt,2,1,125,3,21,0,2,Not Available
+113,3457,within a day,40,83,0,bunglow,Private room,2,1,70,3,10,136,35,Available
+114,3341,within a day,40,68,1,cottage,Entire home/apt,2,2,175,2,21,0,75,Not Available
+115,3334,within a day,40,68,1,chalet,Entire home/apt,2,1,169,2,130,0,28,Available
+116,3334,within a day,40,100,2,tent,Entire home/apt,2,1,190,3,666,352,81,Available
+117,3473,within a day,40,68,1,tent,Entire home/apt,2,1,95,3,30,0,53,Available
+118,3329,within a day,40,68,1,villa,Entire home/apt,2,1,199,2,11250,90,38,Available
+119,3323,within an hour,93,82,3,chalet,Entire home/apt,4,2,71,1,90,40,352,Not Available
+120,3323,within a day,40,68,1,cottage,Entire home/apt,4,2,88,1,7,0,32,Not Available
+121,3316,within a day,40,99,3,condo,Private room,4,4,148,3,1125,0,535,Not Available
+122,3313,within a day,40,68,1,studio apartment,Entire home/apt,4,4,220,2,14,0,27,Available
+123,3305,within a day,40,68,1,villa,Entire home/apt,2,1,150,4,30,87,37,Not Available
+124,3303,within a few hours,100,92,2,villa,Private room,2,1,59,4,30,144,390,Available
+125,3301,within a day,40,100,1,tent,Entire home/apt,4,3,169,2,19,0,43,Not Available
+126,3296,within a day,40,68,1,studio apartment,Entire home/apt,4,3,395,7,365,358,3,Available
+127,3289,within a day,40,68,0,bunglow,Entire home/apt,2,1,200,3,3,363,27,Available
+128,3289,within a day,40,55,1,villa,Entire home/apt,4,4,245,2,1125,53,84,Not Available
+129,3287,within an hour,100,81,8,chalet,Entire home/apt,2,3,95,7,1125,90,107,Not Available
+130,3286,within a day,40,68,1,villa,Entire home/apt,2,1,99,6,30,0,52,Available
+131,3282,within a day,40,68,1,studio apartment,Entire home/apt,2,1,300,3,11,89,11,Available
+132,3282,within a few hours,100,75,1,bunglow,Entire home/apt,2,1,88,3,12,11,68,Not Available
+133,3275,within an hour,100,100,1,tent,Entire home/apt,2,1,280,2,30,250,104,Available
+134,3274,within a day,40,100,2,cabin,Private room,2,1,249,3,1125,0,82,Available
+135,3271,within a day,40,0,1,cottage,Entire home/apt,3,1,250,2,100,0,109,Not Available
+136,3269,within a day,40,68,1,cottage,Entire home/apt,4,2,295,4,13,0,55,Available
+137,3265,within a day,40,100,1,studio apartment,Private room,2,1,85,3,7,0,574,Available
+138,3260,within an hour,100,100,1,cabin,Entire home/apt,2,1,110,2,1125,350,194,Available
+139,3720,within a day,40,68,1,cottage,Entire home/apt,4,3,133,2,1125,0,8,Not Available
+140,3256,within a day,40,68,1,villa,Entire home/apt,3,2,199,20,20,0,23,Not Available
+141,3254,within an hour,100,0,0,bunglow,Entire home/apt,2,2,45,3,40,41,7,Not Available
+142,3252,within a day,40,68,1,cabin,Entire home/apt,2,1,98,4,30,83,7,Not Available
+143,3252,within a day,40,68,1,bunglow,Entire home/apt,4,3,280,180,365,358,78,Available
+144,3412,within a few hours,100,73,1,condo,Entire home/apt,3,1,145,2,30,362,67,Not Available
+145,3250,within a day,40,68,1,bunglow,Entire home/apt,4,2,185,3,3,0,21,Available
+146,3287,within an hour,100,81,8,cottage,Entire home/apt,3,5,275,7,1124,77,134,Available
+147,3269,within a day,40,100,1,cabin,Entire home/apt,2,1,45,4,7,0,18,Available
+148,3240,within a day,40,0,1,condo,Entire home/apt,2,1,304,2,100,363,24,Available
+149,3236,within a day,40,0,1,cottage,Entire home/apt,2,1,109,3,7,40,123,Not Available
+150,3235,within a day,40,68,2,chalet,Entire home/apt,2,1,140,4,21,0,52,Not Available
+151,3234,within a day,100,80,1,studio apartment,Entire home/apt,4,2,220,3,60,61,105,Not Available
+152,3233,within a day,40,33,1,chalet,Entire home/apt,4,3,175,4,30,214,33,Available
+153,3252,within a day,40,68,1,cabin,Entire home/apt,2,1,149,4,45,0,9,Not Available
+154,3232,within an hour,100,100,2,cabin,Private room,3,3,69,2,30,365,398,Available
+155,3349,within a day,40,100,1,chalet,Private room,3,2,100,2,30,364,239,Not Available
+156,3230,within a day,40,68,1,tent,Entire home/apt,2,1,105,5,7,0,73,Not Available
+157,3228,within a day,100,100,3,bunglow,Entire home/apt,4,3,275,3,1125,336,77,Available
+158,3227,within a day,40,0,1,cabin,Entire home/apt,4,3,179,3,60,1,60,Not Available
+159,4031,within a day,40,68,1,tent,Entire home/apt,4,3,175,3,14,88,18,Available
+160,3262,within a day,40,68,1,studio apartment,Entire home/apt,2,1,110,3,30,0,46,Available
+161,3220,within a day,40,100,1,cottage,Entire home/apt,2,2,175,3,14,0,31,Not Available
+162,3506,within a day,40,100,16,chalet,Entire home/apt,4,1,150,2,12,0,193,Not Available
+163,3218,within a day,40,68,1,chalet,Entire home/apt,2,1,160,2,60,0,149,Available
+164,3213,within a few hours,100,14,1,bunglow,Entire home/apt,2,1,125,3,30,0,28,Available
+165,3210,within a day,40,68,1,bunglow,Entire home/apt,2,1,150,2,1125,0,19,Available
+166,3400,within a day,71,93,2,villa,Private room,2,1,85,2,14,331,438,Not Available
+167,3208,within a day,40,68,1,tent,Private room,2,1,100,2,14,0,38,Available
+168,3208,within a day,40,68,1,chalet,Entire home/apt,4,3,200,3,100,0,54,Available
+169,3205,within a day,40,68,1,studio apartment,Entire home/apt,5,4,79,2,14,0,96,Available
+170,3208,within a day,40,68,1,tent,Entire home/apt,4,2,225,3,15,365,16,Not Available
+171,3201,within a day,40,68,1,tent,Private room,2,1,132,1,31,50,31,Available
+172,3197,within a day,40,50,1,chalet,Entire home/apt,2,1,169,5,1125,87,23,Available
+173,3197,within a day,40,68,1,cabin,Entire home/apt,5,3,120,5,22,0,11,Not Available
+174,3322,a few days or more,0,100,2,villa,Entire home/apt,4,5,299,3,30,365,60,Not Available
+175,3196,within a day,40,100,2,studio apartment,Private room,3,3,120,3,21,365,127,Available
+176,3196,within a day,40,100,3,chalet,Entire home/apt,2,1,76,6,15,0,94,Not Available
+177,3287,within an hour,100,81,8,cottage,Entire home/apt,7,8,729,7,1124,139,110,Not Available
+178,3191,within a day,40,60,2,chalet,Entire home/apt,2,1,120,5,60,0,6,Available
+179,3191,within a day,40,68,1,bunglow,Private room,4,2,120,2,20,365,2,Available
+180,3190,within an hour,100,10,0,condo,Entire home/apt,4,1,159,5,30,88,77,Not Available
+181,3255,within a day,40,68,1,cottage,Entire home/apt,5,3,120,6,6,0,0,Available
+182,3189,within a day,40,17,2,bunglow,Entire home/apt,2,1,160,3,1125,0,23,Not Available
+183,3187,within a day,40,68,1,villa,Entire home/apt,4,3,180,5,365,0,23,Available
+184,3184,within a day,40,100,1,bunglow,Private room,2,1,110,2,30,343,202,Not Available
+185,3180,a few days or more,0,100,0,cottage,Entire home/apt,2,0,110,2,20,21,31,Not Available
+186,3690,within a few hours,100,100,1,condo,Entire home/apt,4,2,140,5,30,1,57,Available
+187,3176,within a day,40,68,1,condo,Entire home/apt,4,4,139,4,21,0,7,Not Available
+188,3219,within a day,40,100,1,bunglow,Entire home/apt,4,1,309,4,4,365,112,Available
+189,3173,within a day,40,67,1,cabin,Entire home/apt,6,5,150,1,28,0,43,Available
+190,3173,within a day,40,68,1,cottage,Entire home/apt,2,1,110,2,1125,0,23,Available
+191,3200,within a day,40,68,2,condo,Entire home/apt,2,1,50,5,30,0,18,Available
+192,3334,within a day,40,100,2,tent,Entire home/apt,4,3,1750,21,60,365,31,Available
+193,3568,within a day,40,0,1,villa,Entire home/apt,2,1,80,2,30,194,162,Not Available
+194,3170,within a day,40,68,1,chalet,Entire home/apt,2,2,107,2,28,0,10,Available
+195,3286,within a day,40,68,1,bunglow,Entire home/apt,4,2,120,1,30,0,22,Not Available
+196,3169,within a few hours,100,68,2,bunglow,Entire home/apt,2,1,179,4,1125,362,20,Available
+197,3167,within a day,40,68,1,chalet,Entire home/apt,4,4,195,4,20,0,5,Available
+198,3165,within a day,40,68,1,chalet,Entire home/apt,3,2,150,4,30,0,16,Available
+199,3163,within a day,40,0,2,studio apartment,Entire home/apt,2,1,140,2,1125,360,55,Not Available
+200,3163,within a day,40,100,1,condo,Private room,2,2,83,3,120,0,103,Available
+201,3162,within a day,95,66,1,condo,Private room,2,1,70,3,1125,356,199,Not Available
+202,3203,within a day,40,57,1,studio apartment,Private room,3,2,65,4,30,365,369,Available
+203,3589,within a day,40,68,98,cabin,Entire home/apt,4,2,150,3,1124,0,10,Not Available
+204,3162,within a day,40,68,1,cabin,Entire home/apt,2,1,125,3,21,0,5,Available
+205,3161,within a day,40,68,2,cottage,Entire home/apt,2,2,206,2,10,0,26,Available
+206,3160,within a day,40,68,3,cottage,Entire home/apt,4,7,245,5,35,0,15,Available
+207,3160,within a day,40,57,1,bunglow,Entire home/apt,5,4,225,3,40,0,34,Available
+208,3158,within an hour,100,99,1,cottage,Private room,2,1,124,2,1125,236,458,Available
+209,3157,within a day,40,68,1,studio apartment,Entire home/apt,4,2,94,7,21,0,6,Not Available
+210,3349,within a day,40,68,1,bunglow,Entire home/apt,4,3,300,3,365,0,76,Not Available
+211,3156,within a day,40,68,1,bunglow,Entire home/apt,3,2,193,2,365,0,16,Available
+212,3156,within a day,40,68,1,studio apartment,Entire home/apt,2,1,105,7,24,0,10,Available
+213,3657,within a day,40,68,1,tent,Entire home/apt,2,1,165,3,50,71,22,Not Available
+214,3156,within a day,40,68,1,studio apartment,Entire home/apt,2,1,100,4,14,0,10,Not Available
+215,3156,within a day,40,68,1,bunglow,Entire home/apt,5,3,170,4,14,0,20,Not Available
+216,3852,within a day,40,68,1,studio apartment,Entire home/apt,4,4,230,2,30,0,1,Not Available
+217,3299,within an hour,100,100,4,villa,Entire home/apt,6,6,360,3,90,339,176,Not Available
+218,3364,within a day,40,68,1,chalet,Entire home/apt,4,2,110,180,365,0,39,Not Available
+219,3153,within a day,40,75,1,cottage,Entire home/apt,4,2,100,3,1125,1,45,Not Available
+220,3171,within a few hours,100,71,2,condo,Entire home/apt,6,5,250,26,28,40,1,Available
+221,3153,within a day,40,0,1,cottage,Entire home/apt,2,1,85,5,1125,280,25,Available
+222,3153,within a day,40,68,1,studio apartment,Entire home/apt,5,3,120,5,1125,0,17,Available
+223,3152,within a day,40,0,1,bunglow,Entire home/apt,3,1,120,4,8,193,40,Not Available
+224,3152,within a day,40,68,1,cabin,Entire home/apt,4,4,140,2,1125,0,7,Available
+225,3152,within a day,40,100,1,chalet,Entire home/apt,4,0,330,2,21,0,11,Not Available
+226,3178,within a day,50,0,0,tent,Entire home/apt,2,1,80,3,30,101,145,Not Available
+227,3207,within an hour,100,100,1,chalet,Private room,2,1,45,3,7,358,341,Available
+228,3151,within an hour,80,86,7,bunglow,Entire home/apt,4,2,430,2,365,365,210,Available
+229,3156,within a day,40,68,1,cottage,Entire home/apt,2,1,200,2,65,0,32,Available
+230,3146,within a day,40,68,1,villa,Entire home/apt,2,4,150,4,1125,0,20,Not Available
+231,3143,within a day,40,100,1,bunglow,Private room,2,1,42,2,365,326,284,Not Available
+232,3142,within an hour,100,99,2,cottage,Private room,2,1,69,1,10,0,619,Available
+233,3197,within a day,40,68,1,condo,Entire home/apt,4,2,232,2,1125,0,34,Available
+234,3140,within a few hours,100,80,13,chalet,Private room,2,1,87,1,1125,358,371,Not Available
+235,3533,within a day,40,68,1,bunglow,Private room,2,1,25,1,2,0,195,Not Available
+236,3165,within a day,100,68,1,studio apartment,Entire home/apt,3,2,235,3,30,90,32,Available
+237,3174,within a day,40,68,1,cabin,Entire home/apt,4,2,450,3,14,0,19,Not Available
+238,3146,a few days or more,0,0,2,chalet,Entire home/apt,5,5,275,4,14,0,28,Not Available
+239,3135,within a day,40,68,1,villa,Entire home/apt,2,2,140,4,30,0,18,Available
+240,3134,within a day,40,68,1,cottage,Entire home/apt,2,1,70,2,12,0,71,Available
+241,3133,within a day,40,68,1,studio apartment,Entire home/apt,2,1,150,6,21,0,0,Not Available
+242,3142,within an hour,100,99,2,chalet,Private room,2,1,77,1,10,0,383,Available
+243,3133,within a day,40,0,1,villa,Entire home/apt,5,4,150,6,30,0,14,Not Available
+244,3195,a few days or more,0,68,1,tent,Entire home/apt,2,2,135,2,30,365,7,Available
+245,3133,within a day,40,68,1,tent,Entire home/apt,2,0,189,4,28,0,2,Available
+246,2838,within a day,40,68,1,studio apartment,Entire home/apt,2,1,125,2,1125,0,36,Not Available
+247,3130,within a day,40,68,1,cottage,Entire home/apt,2,1,125,5,1125,0,21,Not Available
+248,3137,within a day,100,75,1,cottage,Entire home/apt,4,4,109,5,350,300,143,Not Available
+249,3151,within a day,100,0,1,bunglow,Entire home/apt,2,1,95,2,1125,41,67,Available
+250,3126,within a day,40,68,1,chalet,Entire home/apt,2,1,79,4,30,0,15,Available
+251,3125,within a day,40,68,1,tent,Entire home/apt,4,2,105,2,90,0,1,Available
+252,3125,within a day,40,68,1,cabin,Entire home/apt,2,1,101,5,15,0,22,Not Available
+253,3125,within a day,40,100,1,condo,Entire home/apt,2,1,120,3,10,90,41,Not Available
+254,3124,within a day,40,100,0,studio apartment,Entire home/apt,2,1,58,4,90,0,218,Not Available
+255,3124,within a day,40,68,1,bunglow,Entire home/apt,2,1,139,2,1125,0,107,Available
+256,3119,within a day,40,94,1,cottage,Entire home/apt,2,1,110,3,10,0,228,Available
+257,3119,within a day,40,68,1,chalet,Entire home/apt,2,1,150,3,4,89,38,Not Available
+258,3159,within a day,40,25,1,studio apartment,Entire home/apt,2,0,79,21,40,0,33,Available
+259,3117,within a day,40,0,0,studio apartment,Entire home/apt,2,0,120,3,30,0,28,Available
+260,3211,within a day,40,68,1,studio apartment,Entire home/apt,2,1,115,6,21,0,8,Not Available
+261,3118,within a day,100,67,1,villa,Entire home/apt,2,1,93,2,365,103,104,Not Available
+262,3325,within a day,40,0,1,cottage,Entire home/apt,9,5,210,4,28,25,14,Not Available
+263,3116,within a day,40,68,1,villa,Entire home/apt,2,1,140,3,1125,0,29,Available
+264,3117,within an hour,100,100,2,cottage,Hotel room,2,1,74,1,1125,316,682,Not Available
+265,3117,within an hour,100,100,2,villa,Hotel room,2,1,74,1,32,322,578,Available
+266,3114,within a day,40,68,1,villa,Entire home/apt,4,2,150,4,30,0,4,Available
+267,3113,within a day,40,0,1,villa,Private room,4,2,160,2,1125,365,99,Available
+268,3111,within a day,40,75,1,studio apartment,Entire home/apt,4,6,325,3,33,0,34,Available
+269,3110,within a day,40,68,1,condo,Entire home/apt,4,2,163,4,10,0,12,Available
+270,3110,within an hour,100,50,2,studio apartment,Entire home/apt,4,2,350,7,365,363,22,Not Available
+271,3393,within a few hours,100,68,1,condo,Entire home/apt,2,1,87,30,180,365,64,Not Available
+272,3109,within a day,40,68,1,condo,Entire home/apt,4,2,139,14,30,0,0,Available
+273,3108,within a day,40,100,0,chalet,Entire home/apt,2,2,120,8,150,224,10,Available
+274,3107,within a day,40,68,1,condo,Entire home/apt,2,1,146,5,120,365,15,Available
+275,3107,within a day,40,68,1,cottage,Entire home/apt,2,1,147,3,21,0,29,Available
+276,3199,within a day,40,68,2,villa,Entire home/apt,2,1,174,2,14,0,26,Not Available
+277,3136,within a day,40,68,1,studio apartment,Entire home/apt,2,1,129,60,100,0,2,Not Available
+278,3105,within a day,40,68,1,studio apartment,Entire home/apt,4,1,183,2,30,364,54,Available
+279,3331,within a day,40,68,1,cabin,Entire home/apt,2,1,190,2,16,0,30,Not Available
+280,3103,within a few hours,100,88,2,condo,Entire home/apt,3,3,150,21,600,0,21,Not Available
+281,3102,within a day,40,68,1,studio apartment,Entire home/apt,2,1,69,2,9,0,4,Available
+282,3101,within a day,40,68,1,cottage,Entire home/apt,4,2,100,2,365,0,16,Not Available
+283,3161,within an hour,100,100,1,bunglow,Entire home/apt,2,2,111,5,120,29,52,Available
+284,3100,within a day,40,68,1,bunglow,Entire home/apt,2,1,150,2,2,0,30,Available
+285,3099,within a day,40,100,2,bunglow,Entire home/apt,2,1,295,3,30,0,47,Not Available
+286,3101,within a day,40,68,1,cabin,Entire home/apt,2,2,200,180,180,365,0,Available
+287,3218,within a day,40,100,1,studio apartment,Private room,2,1,95,1,14,180,433,Available
+288,3095,within a day,40,100,7,chalet,Private room,2,2,65,3,20,286,299,Not Available
+289,3095,within a day,40,68,1,studio apartment,Entire home/apt,3,2,108,4,10,0,17,Not Available
+290,3223,within a day,40,50,1,cottage,Entire home/apt,2,1,120,28,60,264,82,Available
+291,3092,within an hour,100,100,2,cabin,Private room,3,2,185,2,1125,357,421,Not Available
+292,3117,within a day,100,50,1,chalet,Entire home/apt,4,2,250,7,180,3,120,Not Available
+293,3090,within a day,40,0,3,chalet,Entire home/apt,2,2,95,1,4,3,11,Not Available
+294,3089,within a day,40,100,1,condo,Private room,2,1,70,1,30,98,702,Not Available
+295,3088,within a day,100,0,1,villa,Entire home/apt,4,4,120,7,21,173,21,Not Available
+296,3219,within a day,40,100,1,condo,Entire home/apt,2,1,98,3,365,0,53,Not Available
+297,3089,within a few hours,100,0,1,cabin,Entire home/apt,3,0,95,2,5,363,60,Available
+298,3085,within a day,40,50,1,bunglow,Entire home/apt,4,2,175,7,100,0,170,Not Available
+299,3086,within a day,40,25,1,studio apartment,Entire home/apt,2,1,90,3,28,0,24,Available
+300,3094,within a day,40,0,1,studio apartment,Entire home/apt,2,1,136,2,3,41,25,Not Available
+301,3084,within a day,40,33,2,chalet,Entire home/apt,4,4,240,5,40,0,85,Available
+302,3132,within a day,100,50,1,cabin,Entire home/apt,2,1,150,3,1125,363,9,Available
+303,3139,within a day,40,50,1,chalet,Entire home/apt,4,4,132,2,21,0,9,Not Available
+304,3105,within a few hours,100,0,1,villa,Entire home/apt,2,1,219,1,1125,41,120,Not Available
+305,3079,within a day,40,68,2,tent,Entire home/apt,2,1,110,3,150,89,258,Available
+306,3093,within a day,40,68,1,villa,Entire home/apt,4,10,275,4,30,40,27,Not Available
+307,3080,within a day,40,88,1,cabin,Private room,2,1,90,3,10,0,186,Not Available
+308,3078,within a day,40,68,1,villa,Entire home/apt,2,1,311,5,32,362,48,Available
+309,3077,within a day,40,68,1,villa,Entire home/apt,2,1,121,3,21,0,5,Available
+310,3077,within a day,40,68,1,cottage,Entire home/apt,2,1,149,2,1125,0,6,Available
+311,3076,within a day,40,68,1,tent,Entire home/apt,2,1,99,1,14,0,59,Not Available
+312,3076,within a day,40,68,1,tent,Entire home/apt,2,1,130,3,30,0,24,Not Available
+313,3306,within a day,40,68,1,bunglow,Entire home/apt,2,1,110,6,30,0,11,Not Available
+314,3072,within an hour,100,50,2,chalet,Entire home/apt,4,3,156,4,150,0,85,Not Available
+315,3071,within a day,40,100,0,bunglow,Private room,3,2,72,2,180,364,184,Not Available
+316,3071,within a day,40,68,0,chalet,Entire home/apt,2,1,149,10,30,0,0,Not Available
+317,3069,within an hour,100,68,0,chalet,Entire home/apt,2,1,108,2,365,8,29,Available
+318,3066,within an hour,100,90,0,tent,Entire home/apt,4,4,175,3,1125,111,115,Not Available
+319,3275,within a day,40,0,1,villa,Entire home/apt,2,1,250,1,14,364,53,Available
+320,3066,within a day,40,50,0,studio apartment,Entire home/apt,2,1,85,1,14,0,3,Not Available
+321,3065,within a day,40,100,0,villa,Entire home/apt,2,1,145,6,15,1,106,Available
+322,3065,within a day,40,100,0,condo,Private room,2,1,75,3,14,0,84,Not Available
+323,3118,within a day,100,100,3,tent,Private room,2,0,75,3,90,364,354,Available
+324,3200,within a day,40,68,1,tent,Entire home/apt,2,1,99,2,5,0,28,Not Available
+325,3486,within an hour,100,100,5,chalet,Entire home/apt,4,2,280,7,60,83,185,Not Available
+326,3062,within a day,40,68,0,cottage,Entire home/apt,4,2,150,5,30,0,10,Available
+327,3057,within a day,40,68,1,cottage,Entire home/apt,4,1,40,2,365,0,2,Available
+328,3060,within a day,40,100,2,cabin,Private room,1,1,99,3,90,40,77,Available
+329,3060,within a day,40,100,2,chalet,Entire home/apt,3,2,111,6,10,0,149,Available
+330,3057,within an hour,100,100,3,studio apartment,Entire home/apt,4,3,399,2,1125,328,39,Available
+331,3057,within a day,40,0,1,cottage,Entire home/apt,3,2,175,3,10,87,49,Not Available
+332,3338,within a few hours,90,68,2,cabin,Entire home/apt,10,24,206,2,60,348,113,Available
+333,3056,within a day,40,0,1,studio apartment,Entire home/apt,2,2,150,30,30,365,39,Not Available
+334,3055,within an hour,86,100,15,bunglow,Entire home/apt,4,2,165,7,365,55,16,Available
+335,3055,within an hour,86,100,15,condo,Entire home/apt,4,2,302,7,365,32,22,Available
+336,3055,within an hour,86,100,15,bunglow,Entire home/apt,4,2,307,7,365,6,20,Not Available
+337,3055,within an hour,86,100,15,villa,Entire home/apt,4,2,307,7,365,55,21,Available
+338,3093,within a day,40,57,2,tent,Private room,2,1,116,2,10,365,131,Not Available
+339,3072,within an hour,100,50,2,cottage,Entire home/apt,2,1,136,2,100,40,80,Not Available
+340,3097,within a day,40,68,1,studio apartment,Entire home/apt,4,1,130,4,1125,0,22,Available
+341,3090,within a day,40,0,3,chalet,Private room,1,1,60,2,5,365,40,Available
+342,3048,within a day,40,75,1,cabin,Entire home/apt,4,2,219,3,30,251,69,Available
+343,3047,within a day,100,100,1,cottage,Entire home/apt,2,1,149,4,7,1,26,Available
+344,3047,within a few hours,100,98,1,bunglow,Entire home/apt,4,3,199,4,250,0,260,Not Available
+345,3047,within a day,40,100,1,villa,Private room,2,2,110,2,30,237,162,Not Available
+346,2433,within a day,40,68,1,condo,Entire home/apt,2,1,89,3,21,0,18,Not Available
+347,3398,within a day,40,30,1,studio apartment,Entire home/apt,4,1,100,4,60,0,39,Available
+348,3044,within a day,40,50,1,condo,Entire home/apt,4,2,235,2,180,0,99,Available
+349,3044,within a day,100,50,1,chalet,Entire home/apt,4,2,346,3,60,178,104,Not Available
+350,3090,within a day,40,0,3,bunglow,Entire home/apt,6,5,225,2,14,365,9,Not Available
+351,3043,within a day,40,68,1,villa,Entire home/apt,2,2,180,6,30,285,42,Not Available
+352,3078,a few days or more,40,0,0,cabin,Entire home/apt,2,0,90,4,1125,331,7,Available
+353,3043,within a day,40,100,1,cottage,Shared room,4,4,228,4,30,0,63,Not Available
+354,3042,within an hour,100,100,2,tent,Private room,1,1,42,3,365,354,251,Available
+355,3076,within an hour,100,50,1,bunglow,Entire home/apt,2,0,221,3,1125,273,61,Available
+356,3057,within an hour,100,100,3,chalet,Private room,2,1,109,2,1125,0,262,Not Available
+357,3036,within a day,40,68,1,villa,Entire home/apt,4,2,135,2,21,0,23,Not Available
+358,3036,within a day,40,68,1,chalet,Entire home/apt,6,6,250,3,35,0,10,Not Available
+359,3218,within an hour,96,100,3,villa,Private room,2,1,59,1,4,149,447,Not Available
+360,3855,within an hour,100,100,2,villa,Private room,2,1,45,2,8,365,188,Not Available
+361,3035,within a day,40,68,1,cabin,Entire home/apt,2,1,130,2,4,0,20,Not Available
+362,3151,within a day,40,50,0,cottage,Private room,2,1,66,2,1125,132,12,Not Available
+363,3033,within a few hours,100,86,0,tent,Private room,2,1,80,3,31,365,409,Not Available
+364,3079,within a day,40,68,2,studio apartment,Entire home/apt,2,2,120,3,150,89,240,Not Available
+365,3032,within a day,40,68,1,studio apartment,Entire home/apt,2,1,110,3,7,0,2,Not Available
+366,3109,within a few hours,100,100,6,bunglow,Private room,16,32,83,3,14,177,73,Available
+367,3031,within a day,40,68,1,chalet,Entire home/apt,3,3,176,3,30,0,12,Available
+368,3030,within a day,40,68,1,condo,Entire home/apt,2,0,159,2,30,3,28,Available
+369,3030,within a day,40,68,1,cottage,Entire home/apt,4,2,165,2,900,0,27,Not Available
+370,3030,within a day,40,68,1,condo,Entire home/apt,3,1,118,3,365,0,47,Not Available
+371,3029,within a day,40,68,1,condo,Entire home/apt,4,3,399,1,10,0,48,Not Available
+372,3171,within a few hours,88,61,1,bunglow,Entire home/apt,2,1,90,21,1125,90,34,Available
+373,3128,within a day,40,68,1,condo,Entire home/apt,3,1,160,1,5,0,1,Not Available
+374,3035,within a day,40,68,1,villa,Entire home/apt,2,1,118,3,7,0,68,Not Available
+375,3185,within an hour,100,100,0,tent,Entire home/apt,4,3,200,2,1124,301,783,Available
+376,3027,within a day,40,68,1,tent,Entire home/apt,2,1,110,1,1125,365,4,Not Available
+377,3543,within a day,40,67,1,chalet,Entire home/apt,4,2,125,3,1125,225,67,Not Available
+378,3486,within an hour,100,100,5,cottage,Entire home/apt,5,3,282,90,365,84,175,Available
+379,3140,within a few hours,100,100,2,villa,Entire home/apt,4,3,99,2,7,0,4,Available
+380,3023,within a day,57,0,1,cottage,Entire home/apt,4,3,125,3,365,320,30,Not Available
+381,3062,within a day,40,20,0,studio apartment,Entire home/apt,2,1,80,1,365,162,57,Available
+382,3023,within a few hours,100,100,1,studio apartment,Private room,2,1,160,2,1125,89,312,Available
+383,3022,within a day,40,100,1,cottage,Private room,2,1,75,4,21,364,317,Available
+384,3021,within a day,40,68,1,tent,Entire home/apt,4,2,175,3,21,0,22,Available
+385,3020,within a day,40,68,1,studio apartment,Entire home/apt,2,1,150,1,60,0,1,Not Available
+386,3019,within a day,40,68,1,cabin,Entire home/apt,4,0,150,4,14,365,18,Not Available
+387,3320,a few days or more,0,67,1,chalet,Entire home/apt,3,2,150,2,1124,89,84,Not Available
+388,3018,within an hour,100,97,1,cottage,Private room,2,1,45,1,30,327,772,Not Available
+389,3069,within a day,40,68,0,condo,Entire home/apt,2,2,144,2,365,222,39,Available
+390,3705,within a day,50,100,2,cottage,Private room,4,2,119,30,1125,0,37,Available
+391,3100,within a day,100,100,2,studio apartment,Entire home/apt,3,2,349,2,20,345,42,Not Available
+392,3011,within a day,40,0,1,studio apartment,Entire home/apt,4,3,200,2,15,0,39,Available
+393,3010,within a day,40,68,1,cottage,Entire home/apt,2,1,132,3,22,0,39,Not Available
+394,3010,within a day,40,100,1,condo,Private room,2,1,126,2,1125,90,465,Not Available
+395,3065,within an hour,100,98,0,condo,Private room,2,1,65,1,90,358,247,Available
+396,3010,within a day,40,83,1,tent,Entire home/apt,2,1,122,7,60,237,12,Available
+397,3553,within a day,40,68,1,cottage,Entire home/apt,2,1,85,2,1124,0,30,Not Available
+398,3007,within a day,40,100,0,studio apartment,Entire home/apt,4,2,239,3,1125,0,5,Not Available
+399,3004,within a day,40,68,1,condo,Entire home/apt,4,3,193,4,26,0,24,Not Available
+400,3008,within a day,40,68,1,condo,Entire home/apt,2,1,60,3,14,41,38,Available
+401,3002,within a day,40,68,1,bunglow,Entire home/apt,3,3,150,2,1125,0,0,Not Available
+402,3002,within a day,40,83,1,bunglow,Entire home/apt,4,4,200,2,30,0,37,Not Available
+403,3002,within a day,40,100,1,cabin,Private room,2,2,125,2,28,259,300,Available
+404,3030,within a day,40,68,1,villa,Entire home/apt,2,1,115,2,1125,0,46,Available
+405,3139,within a day,40,0,1,condo,Entire home/apt,4,6,180,4,10,48,14,Available
+406,3589,within a day,40,68,1,cottage,Entire home/apt,2,1,85,13,1125,0,21,Available
+407,3089,within a day,40,68,1,villa,Entire home/apt,2,1,79,4,14,0,3,Not Available
+408,3640,within a day,100,100,1,studio apartment,Entire home/apt,4,2,306,3,30,0,4,Not Available
+409,2995,within a day,40,68,1,bunglow,Entire home/apt,4,2,300,2,15,0,25,Available
+410,2969,within a few hours,100,100,1,chalet,Entire home/apt,4,5,150,4,1125,70,45,Available
+411,2994,within a day,40,68,1,bunglow,Entire home/apt,2,1,165,5,1124,0,29,Not Available
+412,2993,within a day,40,68,1,condo,Entire home/apt,2,1,190,5,1125,0,17,Not Available
+413,2992,within an hour,100,96,2,chalet,Entire home/apt,4,2,102,1,30,224,691,Available
+414,2998,within a day,40,68,1,bunglow,Entire home/apt,4,2,800,30,60,0,70,Not Available
+415,3410,within a few hours,100,100,3,chalet,Entire home/apt,4,4,187,7,30,180,328,Not Available
+416,2982,within a day,40,68,1,cottage,Entire home/apt,2,1,109,3,7,0,34,Available
+417,3182,within a day,40,68,1,cabin,Entire home/apt,2,1,175,2,14,0,8,Not Available
+418,2979,within a few hours,100,84,1,condo,Private room,4,3,120,2,35,336,105,Available
+419,2978,within a day,40,68,1,cottage,Entire home/apt,2,1,80,2,30,0,7,Not Available
+420,3462,within a day,40,50,1,tent,Entire home/apt,4,2,180,1,30,40,92,Not Available
+421,3418,within a day,40,68,1,studio apartment,Entire home/apt,2,1,110,500,1125,365,2,Available
+422,2975,within a day,40,68,1,cottage,Entire home/apt,2,1,139,3,30,19,36,Available
+423,2973,within a day,40,100,2,tent,Private room,2,1,135,2,50,352,51,Not Available
+424,2973,within a day,40,67,1,cottage,Private room,2,2,117,3,28,180,458,Not Available
+425,2973,within a few hours,100,100,3,cottage,Private room,3,2,77,1,1125,341,329,Not Available
+426,2976,within a day,40,68,1,tent,Entire home/apt,6,8,359,4,360,365,28,Not Available
+427,2973,within a day,40,100,2,condo,Private room,2,2,160,2,40,251,44,Available
+428,3112,within a few hours,100,100,1,condo,Private room,3,2,89,2,1125,343,512,Not Available
+429,2969,within a few hours,100,72,4,cottage,Private room,2,1,120,4,7,364,47,Not Available
+430,2967,within a day,40,14,2,studio apartment,Entire home/apt,2,1,130,2,30,364,22,Not Available
+431,2966,within a day,40,100,2,chalet,Entire home/apt,4,3,90,2,1125,177,40,Available
+432,2967,within a day,40,14,2,condo,Entire home/apt,2,1,120,2,30,365,30,Not Available
+433,2964,within a day,100,0,1,tent,Entire home/apt,4,2,185,2,30,40,30,Available
+434,2977,within a day,40,68,1,condo,Entire home/apt,3,1,188,2,1125,0,33,Not Available
+435,2963,within a day,40,68,1,tent,Entire home/apt,4,2,226,3,31,365,0,Available
+436,3633,within a few hours,100,100,2,cottage,Entire home/apt,4,1,239,4,364,40,47,Not Available
+437,3331,within a day,40,68,1,cottage,Private room,1,1,68,2,99,0,49,Available
+438,2960,within a day,40,100,1,tent,Entire home/apt,4,1,250,2,21,0,59,Available
+439,2960,within a day,40,68,1,chalet,Entire home/apt,2,1,150,2,1125,0,12,Not Available
+440,2957,within an hour,100,100,1,bunglow,Entire home/apt,2,1,120,3,1125,0,80,Available
+441,3615,within a day,40,100,1,cottage,Private room,2,1,59,2,60,356,323,Available
+442,3275,within a day,40,0,0,bunglow,Private room,2,1,85,2,15,80,56,Not Available
+443,2949,within a day,100,86,1,villa,Entire home/apt,4,3,210,3,30,247,58,Available
+444,2949,within an hour,100,44,1,bunglow,Entire home/apt,4,4,245,2,30,365,55,Not Available
+445,2948,a few days or more,0,68,2,bunglow,Entire home/apt,2,2,105,2,60,0,20,Available
+446,3576,within a day,40,68,1,condo,Entire home/apt,1,1,125,2,5,0,0,Not Available
+447,2947,within a day,40,100,1,cabin,Entire home/apt,4,4,399,4,30,0,56,Not Available
+448,2946,within an hour,100,100,1,tent,Private room,4,2,150,2,270,356,108,Available
+449,3133,within a day,40,100,1,villa,Private room,3,0,125,3,200,0,34,Available
+450,2945,within a day,50,100,1,studio apartment,Entire home/apt,2,1,139,2,21,87,33,Available
+451,2945,within a day,40,68,1,cabin,Entire home/apt,2,1,200,14,90,0,24,Available
+452,3450,within a day,40,68,1,condo,Entire home/apt,4,2,200,5,30,138,10,Available
+453,3187,within a day,40,68,1,cottage,Entire home/apt,2,1,150,2,28,0,32,Not Available
+454,3012,within a few hours,100,98,1,condo,Entire home/apt,4,1,75,2,365,312,291,Not Available
+455,2940,within a day,40,100,1,studio apartment,Entire home/apt,2,1,119,2,2,119,72,Available
+456,3388,within a day,40,0,1,studio apartment,Entire home/apt,4,6,110,16,35,214,7,Available
+457,2939,within a few hours,100,65,2,villa,Private room,16,18,500,2,1125,114,129,Available
+458,2937,within a day,40,100,1,studio apartment,Entire home/apt,5,4,175,3,30,163,70,Not Available
+459,2936,within an hour,100,90,1,chalet,Private room,4,4,185,2,7,203,417,Available
+460,2936,within a day,40,50,1,cabin,Entire home/apt,2,1,130,4,1125,11,65,Available
+461,2936,a few days or more,0,68,1,chalet,Entire home/apt,4,4,195,14,60,62,16,Not Available
+462,3012,within a day,40,0,1,studio apartment,Entire home/apt,2,1,90,6,20,177,9,Available
+463,3066,within a day,40,68,0,cabin,Entire home/apt,2,1,145,15,27,0,7,Available
+464,2933,within a few hours,100,100,1,bunglow,Private room,2,1,90,3,34,256,351,Available
+465,2931,within a day,40,100,2,chalet,Private room,2,1,85,2,365,298,184,Not Available
+466,2930,within a day,40,68,1,bunglow,Entire home/apt,2,1,125,2,5,0,5,Available
+467,2929,within a day,40,0,1,chalet,Entire home/apt,4,3,140,3,30,225,43,Not Available
+468,2928,within a day,40,68,1,cottage,Entire home/apt,5,5,160,3,7,0,11,Not Available
+469,2927,within a day,100,100,2,studio apartment,Private room,2,2,72,2,31,1,5,Not Available
+470,2927,within a day,100,100,2,bunglow,Private room,2,2,79,2,1125,341,98,Not Available
+471,2969,within a few hours,100,72,4,studio apartment,Entire home/apt,4,3,300,4,10,347,13,Available
+472,2959,within a day,78,30,1,villa,Entire home/apt,6,5,275,3,365,344,24,Not Available
+473,3254,within a day,40,68,1,chalet,Entire home/apt,6,2,240,5,25,0,24,Available
+474,3180,within a day,40,80,1,cabin,Entire home/apt,4,3,355,3,1125,365,23,Available
+475,2918,within a day,40,100,1,chalet,Private room,3,3,95,2,7,103,165,Available
+476,3057,within an hour,100,90,1,bunglow,Private room,2,1,54,2,1124,0,255,Available
+477,3047,within a day,40,68,1,cabin,Entire home/apt,4,2,145,5,1125,41,7,Available
+478,3076,within a few hours,100,14,0,bunglow,Entire home/apt,2,1,50,5,31,100,9,Available
+479,2910,within an hour,100,100,1,tent,Shared room,2,2,80,2,30,1,300,Available
+480,3124,within a day,40,68,1,cabin,Entire home/apt,4,2,199,4,21,364,31,Not Available
+481,2995,within an hour,100,100,1,cottage,Private room,2,2,74,2,28,287,334,Not Available
+482,2906,within a day,40,68,1,cottage,Entire home/apt,4,4,300,3,21,0,19,Not Available
+483,2906,within a day,40,68,1,villa,Private room,1,26,77,2,6,364,1,Available
+484,2905,within a day,40,50,1,bunglow,Entire home/apt,6,5,400,2,20,0,97,Available
+485,2905,within a day,40,68,1,chalet,Entire home/apt,4,4,153,2,120,0,93,Not Available
+486,2902,within an hour,100,20,2,studio apartment,Entire home/apt,2,0,145,2,14,238,45,Not Available
+487,2902,within a day,40,68,1,villa,Private room,2,1,129,4,1125,315,47,Available
+488,2902,within a day,40,68,1,condo,Entire home/apt,4,3,250,10,1125,365,16,Not Available
+489,3092,a few days or more,0,96,2,bunglow,Private room,2,0,121,2,30,365,110,Not Available
+490,2992,within an hour,100,92,1,chalet,Private room,2,1,30,2,90,347,490,Not Available
+491,2901,within a day,40,100,1,cottage,Entire home/apt,2,1,145,4,6,0,51,Not Available
+492,2900,a few days or more,0,0,1,studio apartment,Entire home/apt,4,4,119,2,21,329,19,Available
+493,2939,within a day,40,0,1,villa,Entire home/apt,6,4,125,4,7,41,1,Not Available
+494,2988,within a day,100,50,2,tent,Private room,2,2,134,3,1125,50,41,Not Available
+495,3940,within an hour,100,100,2,studio apartment,Private room,2,1,98,2,1124,191,236,Available
+496,2616,within a day,40,100,1,tent,Private room,4,3,114,3,7,89,10,Available
+497,2896,within a day,40,68,1,studio apartment,Entire home/apt,2,1,170,5,11,0,29,Available
+498,2896,within a few hours,100,0,1,bunglow,Entire home/apt,3,2,140,3,1125,365,2,Available
+499,2896,within a day,40,100,1,tent,Entire home/apt,4,6,145,3,7,26,15,Not Available
+500,3399,within a day,40,68,1,villa,Entire home/apt,5,4,250,5,1125,162,2,Not Available
+501,2894,within an hour,100,100,2,studio apartment,Private room,2,1,107,2,60,336,563,Available
+502,4096,within a day,40,68,1,cabin,Entire home/apt,2,1,87,4,93,0,50,Available
+503,2892,within a day,40,68,1,tent,Entire home/apt,2,1,110,1,1125,0,24,Not Available
+504,2890,within an hour,100,68,1,tent,Entire home/apt,4,4,225,3,30,199,17,Available
+505,2986,within a day,40,0,1,villa,Entire home/apt,2,1,171,3,20,315,65,Not Available
+506,2889,within a day,40,68,1,bunglow,Entire home/apt,4,2,295,4,1125,0,16,Not Available
+507,2889,within a few hours,100,68,1,chalet,Entire home/apt,4,3,399,2,14,364,43,Not Available
+508,3213,within a day,40,0,1,studio apartment,Entire home/apt,4,2,177,4,20,193,12,Available
+509,3217,within a day,80,65,3,cottage,Entire home/apt,5,2,280,3,1125,335,99,Available
+510,2888,within a day,100,43,1,villa,Entire home/apt,2,2,139,3,60,98,49,Available
+511,2888,within a day,40,68,1,condo,Entire home/apt,2,1,100,3,1125,0,2,Not Available
+512,2887,within a day,100,100,1,studio apartment,Entire home/apt,2,1,84,7,1125,10,17,Not Available
+513,3217,within a day,80,65,3,bunglow,Entire home/apt,4,4,200,3,1125,1,54,Not Available
+514,3217,within a day,80,65,3,studio apartment,Entire home/apt,2,1,120,3,1125,342,62,Available
+515,2887,within a day,40,68,1,condo,Entire home/apt,8,10,376,4,14,0,47,Available
+516,3098,within a day,40,68,1,condo,Entire home/apt,2,1,130,1,1125,0,18,Not Available
+517,2887,within an hour,100,0,1,villa,Entire home/apt,4,5,525,2,30,361,35,Available
+518,2887,within an hour,100,100,1,tent,Entire home/apt,2,1,150,7,23,365,285,Not Available
+519,3146,within a day,40,100,1,bunglow,Entire home/apt,4,0,200,4,20,48,22,Not Available
+520,2885,within a day,50,50,1,bunglow,Entire home/apt,5,5,500,3,30,346,9,Available
+521,2883,within a day,40,68,1,condo,Private room,2,2,96,3,8,0,191,Available
+522,3172,within an hour,100,93,6,studio apartment,Entire home/apt,6,4,243,7,180,271,92,Available
+523,3275,within a few hours,100,94,2,bunglow,Private room,2,1,79,1,3,90,455,Available
+524,2884,within an hour,93,54,18,cottage,Entire home/apt,2,1,99,7,180,356,44,Available
+525,2880,within a day,40,0,1,cottage,Entire home/apt,3,2,60,10,42,179,5,Not Available
+526,2879,within a day,100,75,1,condo,Entire home/apt,4,1,135,5,30,362,81,Not Available
+527,3092,within an hour,100,100,2,cottage,Private room,4,2,185,2,1125,361,325,Not Available
+528,2878,within a few hours,90,100,1,villa,Entire home/apt,3,1,100,2,20,340,329,Not Available
+529,2878,within a day,40,68,1,cottage,Entire home/apt,2,1,148,5,10,0,22,Not Available
+530,2878,within a day,40,68,1,cottage,Entire home/apt,4,2,106,7,365,91,12,Not Available
+531,2914,within a day,40,68,2,bunglow,Entire home/apt,4,1,250,2,14,0,18,Available
+532,2954,within a day,40,68,1,tent,Entire home/apt,2,1,96,2,7,0,20,Available
+533,2875,within a day,40,100,1,chalet,Entire home/apt,2,1,203,2,21,1,27,Available
+534,2871,within a day,40,60,1,bunglow,Entire home/apt,4,2,90,5,14,116,63,Available
+535,3004,within a day,40,68,1,chalet,Entire home/apt,2,1,180,200,365,40,51,Not Available
+536,2874,within a day,40,68,1,cabin,Entire home/apt,2,1,128,4,60,0,23,Not Available
+537,3161,within a day,40,81,2,chalet,Entire home/apt,4,2,200,2,60,0,93,Not Available
+538,3055,within an hour,86,100,15,condo,Private room,2,0,59,3,365,55,19,Not Available
+539,3055,within an hour,86,100,15,studio apartment,Private room,2,3,59,3,365,55,10,Not Available
+540,2902,within an hour,100,0,1,bunglow,Entire home/apt,2,1,100,3,7,1,25,Not Available
+541,2872,within a day,40,68,1,condo,Hotel room,2,1,143,2,1125,273,53,Not Available
+542,3939,within a day,40,100,1,studio apartment,Entire home/apt,2,1,100,4,30,0,64,Not Available
+543,2877,within a day,40,68,1,cabin,Entire home/apt,4,4,195,2,21,0,25,Not Available
+544,2869,within a day,40,100,1,chalet,Entire home/apt,4,3,175,4,1124,0,17,Not Available
+545,3707,within a day,50,50,3,villa,Entire home/apt,2,1,99,5,30,0,21,Not Available
+546,2868,within a day,40,68,1,studio apartment,Entire home/apt,2,1,57,7,8,0,1,Not Available
+547,2931,within a day,40,100,2,cabin,Private room,2,1,80,2,7,301,155,Not Available
+548,3728,within a day,40,68,1,villa,Entire home/apt,2,1,60,2,4,0,27,Available
+549,2867,within a day,40,67,1,cottage,Entire home/apt,3,0,200,3,21,0,92,Available
+550,2867,within a day,40,68,1,studio apartment,Entire home/apt,2,1,120,3,20,0,52,Not Available
+551,2867,within a day,40,100,1,bunglow,Private room,2,1,116,2,1125,339,374,Available
+552,2866,within a day,40,68,1,chalet,Entire home/apt,5,4,250,5,1125,11,5,Available
+553,2866,within a day,40,100,1,studio apartment,Private room,2,1,41,2,9,363,53,Not Available
+554,2866,within a day,40,68,1,tent,Entire home/apt,4,2,320,3,30,365,28,Not Available
+555,2939,within a few hours,100,78,0,villa,Entire home/apt,2,1,105,2,10,359,98,Not Available
+556,2863,within a day,40,68,1,condo,Entire home/apt,2,1,85,5,14,0,12,Available
+557,2881,within a day,40,80,1,tent,Entire home/apt,4,2,202,2,28,0,11,Not Available
+558,2861,within an hour,100,99,1,cabin,Private room,2,1,70,1,1125,82,334,Available
+559,2863,within a day,40,68,1,studio apartment,Entire home/apt,2,1,99,2,1125,0,12,Not Available
+560,3067,within a day,40,68,0,condo,Private room,2,2,69,2,30,2,173,Available
+561,2859,within a day,40,68,1,cottage,Private room,2,1,102,2,10,364,45,Available
+562,2858,within a day,40,68,1,villa,Entire home/apt,8,8,270,3,20,0,6,Available
+563,2857,within a day,40,68,1,chalet,Entire home/apt,4,4,325,3,1125,364,26,Not Available
+564,3451,within a day,100,0,1,condo,Entire home/apt,4,4,250,5,7,89,1,Available
+565,2856,within a day,100,17,1,cottage,Entire home/apt,4,3,201,2,1125,361,17,Not Available
+566,2856,within an hour,100,67,1,tent,Entire home/apt,2,1,149,1000,1001,8,35,Not Available
+567,2855,within a few hours,100,100,1,tent,Entire home/apt,2,1,145,3,30,0,17,Not Available
+568,3113,within a day,40,68,1,villa,Private room,4,2,124,2,365,41,128,Not Available
+569,2854,within a day,40,50,1,tent,Entire home/apt,4,4,180,4,60,216,17,Not Available
+570,2864,within a day,40,68,1,chalet,Entire home/apt,2,1,102,2,1125,0,25,Available
+571,3142,within a day,40,68,1,tent,Entire home/apt,2,1,80,2,1125,0,8,Not Available
+572,3197,within a day,40,0,0,chalet,Entire home/apt,3,2,100,3,1125,194,96,Available
+573,2851,within an hour,100,100,1,studio apartment,Private room,4,6,46,1,1125,343,392,Not Available
+574,2851,within a day,40,100,1,cabin,Entire home/apt,2,1,75,3,365,0,76,Not Available
+575,2884,within an hour,93,54,18,condo,Entire home/apt,2,1,100,7,180,365,29,Not Available
+576,2851,within a day,40,68,1,bunglow,Entire home/apt,2,2,110,4,14,326,59,Available
+577,2911,within a day,40,50,1,cabin,Entire home/apt,4,2,199,2,1125,101,68,Available
+578,3168,within a day,40,68,1,cottage,Entire home/apt,4,4,300,2,21,0,4,Available
+579,2916,within a day,40,100,1,cabin,Entire home/apt,3,2,139,3,30,39,47,Not Available
+580,3608,within a day,40,20,1,studio apartment,Entire home/apt,4,4,295,4,20,36,22,Not Available
+581,2847,within a day,40,50,1,cabin,Entire home/apt,4,4,295,4,1125,240,10,Not Available
+582,2845,within a few hours,100,68,1,chalet,Entire home/apt,4,2,126,3,1125,0,15,Available
+583,2845,within a day,40,100,1,cabin,Entire home/apt,2,1,160,3,100,85,195,Not Available
+584,3335,within a day,40,68,1,chalet,Private room,2,1,88,2,4,0,12,Not Available
+585,2844,within a day,40,68,1,villa,Entire home/apt,2,1,80,2,1125,0,7,Available
+586,2844,within a day,40,0,1,villa,Entire home/apt,2,1,120,4,30,286,42,Not Available
+587,2841,within a day,40,68,1,bunglow,Entire home/apt,2,1,150,2,1125,0,9,Available
+588,2841,within a day,40,100,1,bunglow,Private room,2,1,50,1,30,0,485,Available
+589,2840,within a day,40,68,1,studio apartment,Entire home/apt,4,2,140,3,30,180,64,Available
+590,3174,within a day,40,50,1,chalet,Entire home/apt,4,3,228,2,30,42,60,Available
+591,2839,within a day,40,68,1,cottage,Entire home/apt,2,1,129,3,1125,0,1,Available
+592,2839,a few days or more,0,0,1,condo,Entire home/apt,2,1,125,2,60,0,17,Available
+593,2838,within a day,40,33,2,cabin,Entire home/apt,4,2,210,3,28,0,14,Available
+594,3366,within a day,40,68,1,studio apartment,Entire home/apt,5,3,200,2,1125,40,3,Available
+595,2837,a few days or more,33,33,1,chalet,Entire home/apt,4,4,263,2,14,355,36,Available
+596,2837,within a day,100,100,1,studio apartment,Shared room,2,1,82,30,365,365,46,Not Available
+597,2837,within an hour,100,98,2,studio apartment,Entire home/apt,4,2,52,1,7,162,280,Not Available
+598,2837,within a day,40,68,1,condo,Entire home/apt,3,2,120,183,1125,363,0,Available
+599,2837,within a day,40,60,1,chalet,Private room,2,1,150,3,7,89,148,Available
+600,2836,within a day,40,68,1,bunglow,Entire home/apt,4,4,126,2,1125,0,22,Available
+601,2836,within a day,40,100,1,condo,Entire home/apt,4,5,100,5,1125,0,41,Available
+602,2835,within a day,40,68,1,villa,Entire home/apt,2,1,80,1,30,0,22,Not Available
+603,3257,within a day,40,100,1,cabin,Entire home/apt,2,1,100,2,9,0,24,Not Available
+604,3247,within a day,40,68,1,cabin,Entire home/apt,4,3,80,21,1125,1,4,Not Available
+605,2834,within a day,50,0,2,villa,Entire home/apt,3,1,140,2,1125,365,59,Available
+606,2832,within a day,40,0,1,condo,Entire home/apt,4,4,270,3,14,71,23,Not Available
+607,2829,within an hour,100,91,1,cabin,Private room,4,4,90,2,1125,309,367,Not Available
+608,2829,within an hour,100,33,2,tent,Entire home/apt,2,1,86,2,1123,152,66,Not Available
+609,2828,within a day,40,68,1,cottage,Entire home/apt,4,4,149,5,15,0,10,Available
+610,2842,within a day,100,80,1,chalet,Entire home/apt,4,3,145,2,30,37,48,Available
+611,2910,within a day,40,68,2,tent,Entire home/apt,4,2,241,3,10,0,30,Available
+612,2894,within an hour,100,100,2,tent,Private room,2,1,92,2,1125,248,395,Available
+613,3714,within a day,40,0,6,studio apartment,Entire home/apt,4,4,468,3,150,365,1,Not Available
+614,2825,within an hour,100,97,0,chalet,Entire home/apt,4,2,291,1,365,260,150,Available
+615,3714,within a day,40,0,6,chalet,Entire home/apt,7,6,679,3,365,365,4,Available
+616,2824,within a day,40,68,2,condo,Entire home/apt,2,3,169,28,1125,365,58,Not Available
+617,3714,within a day,40,0,6,studio apartment,Entire home/apt,4,3,510,3,30,365,0,Not Available
+618,2825,within a few hours,100,100,1,cabin,Entire home/apt,4,3,280,3,30,131,36,Not Available
+619,2822,within a day,40,83,1,tent,Entire home/apt,2,1,124,2,360,0,69,Available
+620,2821,within an hour,100,100,2,chalet,Private room,2,1,31,1,1125,38,675,Not Available
+621,2849,within a day,100,0,1,cabin,Entire home/apt,4,3,260,3,1125,201,47,Available
+622,2821,within a day,40,68,1,condo,Entire home/apt,4,3,180,5,1124,0,27,Available
+623,2820,within a day,40,100,1,chalet,Entire home/apt,2,1,119,5,1125,0,24,Available
+624,3136,within a day,40,68,1,bunglow,Entire home/apt,2,1,90,5,14,0,9,Available
+625,2819,within a day,40,0,1,villa,Entire home/apt,2,1,139,3,1125,29,7,Not Available
+626,2818,within a day,40,68,1,bunglow,Entire home/apt,2,1,170,3,28,0,69,Not Available
+627,2817,within a few hours,100,29,2,cottage,Entire home/apt,4,5,225,5,365,171,12,Not Available
+628,2817,within a few hours,100,0,1,cottage,Entire home/apt,5,5,399,2,1125,1,30,Available
+629,2821,within an hour,100,0,1,cabin,Entire home/apt,2,1,99,4,365,0,9,Not Available
+630,2816,within a day,40,68,1,cabin,Entire home/apt,3,3,126,3,1125,0,16,Available
+631,2816,within a day,40,100,2,cottage,Entire home/apt,4,2,250,2,100,0,38,Available
+632,2816,within a day,40,68,1,cabin,Entire home/apt,4,4,200,2,1125,133,8,Available
+633,3160,within a day,40,0,1,tent,Entire home/apt,4,3,250,3,14,132,28,Not Available
+634,3302,within a day,40,68,1,bunglow,Entire home/apt,4,2,140,4,50,0,10,Available
+635,2814,within an hour,100,100,2,bunglow,Private room,2,1,101,2,100,246,314,Available
+636,3109,within a day,40,68,1,bunglow,Entire home/apt,4,2,175,2,2,0,7,Available
+637,3185,within a day,40,68,1,chalet,Entire home/apt,5,0,260,4,21,363,1,Available
+638,2812,within a day,40,68,1,villa,Entire home/apt,2,1,79,5,1125,0,4,Not Available
+639,3172,within a few hours,100,88,2,studio apartment,Entire home/apt,2,0,225,4,1125,41,33,Available
+640,2811,within a day,40,100,1,studio apartment,Entire home/apt,3,2,89,3,5,10,106,Available
+641,2811,within a day,40,68,1,cabin,Entire home/apt,3,2,100,7,28,0,8,Available
+642,2886,within a day,100,33,1,chalet,Entire home/apt,3,5,98,5,21,60,23,Available
+643,2810,within a day,40,68,1,tent,Entire home/apt,2,1,89,3,14,0,42,Not Available
+644,2809,within a few hours,100,0,0,cabin,Entire home/apt,4,1,750,3,1125,101,5,Available
+645,2809,within a day,40,68,1,tent,Entire home/apt,2,1,125,2,1125,0,8,Available
+646,2809,within a day,40,68,1,bunglow,Entire home/apt,2,2,119,5,6,363,91,Available
+647,2973,within a few hours,100,100,3,tent,Hotel room,2,2,72,1,1125,352,316,Available
+648,3432,within a day,40,50,1,villa,Private room,2,2,79,4,15,297,158,Available
+649,2807,within a day,40,68,1,cabin,Entire home/apt,4,3,170,2,7,0,20,Available
+650,3031,within a day,40,100,1,chalet,Entire home/apt,4,3,149,6,365,71,85,Not Available
+651,2806,within a day,40,68,1,cabin,Entire home/apt,2,1,225,3,1125,363,5,Available
+652,2807,within a day,40,75,1,cottage,Entire home/apt,4,2,250,2,1125,40,67,Not Available
+653,3087,within a day,40,0,1,chalet,Entire home/apt,3,1,199,3,21,364,60,Available
+654,2805,within a day,40,50,1,studio apartment,Entire home/apt,2,1,249,1,1125,0,35,Available
+655,2808,within a day,40,68,2,studio apartment,Entire home/apt,4,2,250,2,1125,180,28,Not Available
+656,3529,within a day,40,0,1,studio apartment,Entire home/apt,4,2,135,3,13,40,1,Not Available
+657,2804,a few days or more,0,0,1,tent,Entire home/apt,4,2,595,6,40,362,43,Available
+658,2804,within an hour,100,68,0,condo,Entire home/apt,4,0,155,2,28,365,2,Not Available
+659,2803,within a day,40,100,1,condo,Entire home/apt,6,6,500,4,10,43,32,Not Available
+660,2884,within an hour,93,54,18,condo,Entire home/apt,2,1,72,7,180,337,53,Available
+661,2802,within an hour,100,100,1,cabin,Entire home/apt,2,1,78,2,8,40,95,Available
+662,2884,within an hour,93,54,18,bunglow,Entire home/apt,4,2,100,7,180,71,102,Available
+663,2884,within an hour,93,54,18,villa,Entire home/apt,2,1,77,7,180,333,45,Available
+664,2884,within an hour,93,54,18,condo,Entire home/apt,2,1,76,7,180,347,30,Available
+665,2884,within an hour,93,54,18,villa,Entire home/apt,3,2,80,7,180,333,64,Available
+666,2889,within a day,40,68,1,cabin,Entire home/apt,4,3,175,3,1125,0,12,Not Available
+667,2841,within a few hours,100,96,1,cottage,Entire home/apt,4,1,50,3,1125,21,176,Available
+668,2798,within a day,40,68,1,villa,Entire home/apt,4,4,400,5,30,6,48,Not Available
+669,2867,within a day,40,68,1,studio apartment,Entire home/apt,4,2,130,5,365,0,15,Not Available
+670,2798,within a day,100,33,1,bunglow,Entire home/apt,4,3,170,3,20,187,13,Available
+671,2798,within a day,40,100,1,chalet,Entire home/apt,4,7,150,4,1125,9,12,Available
+672,3147,within a day,40,68,0,studio apartment,Private room,2,1,64,5,9,0,40,Not Available
+673,2796,within a day,40,75,1,villa,Private room,2,0,95,1,1125,365,186,Available
+674,2796,within a day,40,68,1,cottage,Private room,1,1,59,4,5,178,97,Not Available
+675,2796,within a day,40,68,0,condo,Entire home/apt,4,2,150,10,30,193,12,Not Available
+676,2799,within a day,40,68,1,studio apartment,Entire home/apt,4,2,404,3,1125,358,44,Not Available
+677,3068,within a day,40,68,0,chalet,Entire home/apt,2,1,125,1,28,0,10,Available
+678,2794,within a day,40,68,1,studio apartment,Entire home/apt,4,2,125,5,60,0,52,Available
+679,2950,within a day,40,100,3,cabin,Private room,2,1,123,2,27,332,124,Available
+680,2950,within a day,40,100,3,chalet,Private room,1,1,99,2,27,315,170,Available
+681,2925,within a day,100,50,1,condo,Entire home/apt,2,1,66,3,1125,193,48,Available
+682,2832,within a day,40,68,1,bunglow,Entire home/apt,2,1,95,3,30,102,36,Available
+683,2827,within a day,100,50,1,cottage,Entire home/apt,4,2,135,3,1125,166,54,Not Available
+684,2832,within a day,100,68,1,studio apartment,Entire home/apt,5,3,295,4,21,38,25,Available
+685,2790,within an hour,100,100,1,condo,Private room,2,0,75,2,1125,339,446,Available
+686,2839,within a day,40,68,1,chalet,Entire home/apt,4,4,250,2,14,0,43,Available
+687,2789,within a day,40,68,1,chalet,Entire home/apt,3,3,140,5,1125,0,5,Not Available
+688,2789,within a day,40,13,1,tent,Entire home/apt,4,5,111,3,23,253,21,Not Available
+689,3108,within a day,40,68,1,cottage,Entire home/apt,2,1,90,3,1125,0,0,Not Available
+690,3589,within a day,40,68,98,cottage,Entire home/apt,3,2,135,3,1124,0,56,Available
+691,2798,within a day,40,68,1,bunglow,Entire home/apt,4,2,159,3,29,0,58,Not Available
+692,2788,within a day,75,27,1,condo,Entire home/apt,2,3,110,3,1125,355,27,Not Available
+693,2848,within a day,40,68,1,tent,Entire home/apt,3,2,160,3,14,0,14,Not Available
+694,2788,within a day,40,68,2,tent,Entire home/apt,2,1,150,2,4,0,3,Not Available
+695,2788,a few days or more,0,68,1,studio apartment,Entire home/apt,3,2,170,10,13,365,0,Not Available
+696,2788,within a day,40,0,1,villa,Entire home/apt,3,2,257,150,150,83,8,Available
+697,3510,within a day,40,68,1,tent,Entire home/apt,2,1,84,3,1125,0,37,Not Available
+698,2788,within a day,40,68,1,cottage,Entire home/apt,7,3,150,1,1125,89,83,Available
+699,2787,within a day,40,68,1,villa,Entire home/apt,2,1,99,3,1125,0,86,Available
+700,3140,within a few hours,100,80,13,tent,Private room,4,0,77,2,1125,214,124,Not Available
+701,3084,within a day,40,33,2,studio apartment,Private room,1,1,74,3,7,0,38,Available
+702,2791,within an hour,100,100,2,villa,Private room,2,1,180,1,1125,34,57,Available
+703,2974,within a day,40,100,0,chalet,Entire home/apt,2,1,99,2,30,40,14,Not Available
+704,2789,within a day,40,0,1,cabin,Entire home/apt,2,0,130,4,60,0,16,Not Available
+705,2872,within an hour,100,46,0,villa,Entire home/apt,2,1,85,1,1125,360,86,Available
+706,2784,within a day,40,68,1,condo,Entire home/apt,2,0,165,2,3,1,56,Not Available
+707,2782,within a day,40,100,1,chalet,Private room,2,2,93,3,5,0,175,Available
+708,2782,within a few hours,100,30,1,cabin,Entire home/apt,2,0,99,2,1125,325,27,Available
+709,2782,within a day,40,68,1,studio apartment,Entire home/apt,4,2,273,3,12,117,33,Not Available
+710,2782,within a day,40,68,1,chalet,Entire home/apt,5,3,220,1,14,0,7,Available
+711,2939,within a day,40,68,1,bunglow,Entire home/apt,2,1,99,3,15,0,5,Not Available
+712,2794,within a day,40,100,1,tent,Entire home/apt,4,3,199,3,1125,0,31,Not Available
+713,2781,within a day,40,0,1,cabin,Entire home/apt,4,3,199,4,1125,0,34,Available
+714,2781,within a few hours,100,57,1,chalet,Entire home/apt,3,1,89,3,1125,0,90,Available
+715,2781,within an hour,100,100,1,tent,Private room,2,1,88,2,10,347,513,Available
+716,3105,within a day,40,68,1,chalet,Entire home/apt,2,1,125,5,10,0,39,Not Available
+717,2831,within a day,40,0,1,cabin,Entire home/apt,2,1,138,3,14,9,91,Available
+718,3190,within a day,40,100,1,villa,Entire home/apt,4,4,200,5,1125,11,38,Not Available
+719,2779,within a day,40,68,1,chalet,Entire home/apt,2,1,121,3,15,0,19,Available
+720,2779,within a day,40,0,1,chalet,Entire home/apt,3,3,150,5,20,335,43,Available
+721,3505,within a day,40,68,1,condo,Entire home/apt,4,4,150,5,14,83,17,Not Available
+722,2777,within a day,40,68,0,cabin,Entire home/apt,2,1,95,3,4,0,6,Not Available
+723,2777,within a day,40,68,1,bunglow,Entire home/apt,2,1,110,3,60,132,10,Not Available
+724,2795,within a day,40,68,1,villa,Entire home/apt,2,1,145,6,28,364,19,Available
+725,2513,a few days or more,0,36,10,bunglow,Entire home/apt,4,2,106,3,1125,71,82,Not Available
+726,2776,within a day,40,100,1,studio apartment,Entire home/apt,4,2,100,3,1125,0,3,Not Available
+727,3331,within an hour,100,95,2,condo,Private room,2,1,122,2,14,200,323,Available
+728,2775,within a day,40,0,1,chalet,Entire home/apt,2,1,149,4,30,0,35,Not Available
+729,2776,within a day,40,68,1,cabin,Entire home/apt,4,2,150,2,30,0,31,Not Available
+730,2775,within a day,40,68,1,chalet,Entire home/apt,2,1,179,3,7,365,32,Available
+731,2781,within a day,40,68,1,cabin,Entire home/apt,2,1,123,2,50,0,1,Not Available
+732,2774,within a day,40,68,1,cabin,Entire home/apt,2,1,149,2,60,42,92,Available
+733,2937,within a day,40,68,1,studio apartment,Entire home/apt,4,3,500,31,31,364,10,Not Available
+734,2771,within a day,40,100,2,tent,Private room,2,1,58,4,100,359,238,Not Available
+735,2792,within a day,40,68,1,cabin,Entire home/apt,2,1,121,2,1125,0,10,Available
+736,3320,within a day,40,68,2,tent,Entire home/apt,2,0,129,4,10,0,11,Available
+737,3032,within a day,40,68,1,studio apartment,Entire home/apt,2,1,110,5,1125,0,12,Available
+738,3242,within a day,40,68,2,chalet,Private room,2,1,69,1,1125,0,268,Not Available
+739,2786,within a day,40,68,1,villa,Entire home/apt,4,3,110,5,28,0,35,Not Available
+740,2784,within a day,40,68,1,studio apartment,Entire home/apt,3,2,173,2,365,0,2,Available
+741,2769,within a day,40,0,1,cottage,Entire home/apt,2,1,100,3,10,365,43,Available
+742,2785,a few days or more,0,68,1,studio apartment,Entire home/apt,4,4,200,4,1125,86,8,Available
+743,2766,within a day,40,67,2,chalet,Entire home/apt,2,1,80,10,14,0,12,Not Available
+744,2765,within a day,40,100,1,chalet,Entire home/apt,2,1,175,2,1125,365,75,Not Available
+745,2764,within a day,40,100,1,studio apartment,Private room,2,1,155,3,4,0,70,Available
+746,2805,within a day,40,68,1,cottage,Entire home/apt,2,0,110,4,100,0,40,Not Available
+747,3057,within an hour,100,100,3,condo,Private room,4,3,139,1,1125,225,72,Available
+748,2764,within a day,40,100,1,cottage,Private room,2,1,99,4,9,0,52,Available
+749,2763,within a day,40,100,1,studio apartment,Entire home/apt,4,2,343,2,14,0,59,Not Available
+750,2773,within a day,40,68,1,chalet,Entire home/apt,3,2,150,2,30,0,43,Available
+751,2763,within a day,40,68,1,condo,Entire home/apt,3,2,120,4,30,0,12,Available
+752,2776,within a day,40,68,1,studio apartment,Entire home/apt,2,1,109,4,7,0,38,Not Available
+753,2762,within a day,40,100,1,chalet,Entire home/apt,2,1,171,2,30,0,42,Not Available
+754,2839,within a day,100,0,1,chalet,Entire home/apt,2,1,89,4,60,0,16,Not Available
+755,2761,within a day,40,68,1,cottage,Entire home/apt,2,1,180,3,1125,1,12,Not Available
+756,2828,within a day,40,68,1,cabin,Entire home/apt,2,1,135,3,365,0,12,Not Available
+757,2758,within a day,40,67,0,chalet,Entire home/apt,2,1,149,2,14,336,70,Available
+758,3055,within an hour,86,100,15,bunglow,Private room,4,2,277,3,30,5,34,Available
+759,2757,within a day,40,100,1,studio apartment,Entire home/apt,4,1,80,3,1125,0,43,Available
+760,2756,within a day,40,67,1,bunglow,Entire home/apt,4,1,108,2,30,101,71,Available
+761,3016,within a day,40,0,0,chalet,Entire home/apt,2,1,142,3,14,87,12,Available
+762,2952,within a day,40,68,1,bunglow,Entire home/apt,2,1,134,3,31,0,34,Available
+763,2755,within an hour,100,100,2,cabin,Private room,2,1,65,3,150,339,237,Available
+764,2755,within a few hours,100,67,2,condo,Entire home/apt,2,1,145,2,31,365,73,Available
+765,2755,within a day,100,68,0,studio apartment,Entire home/apt,4,2,256,3,1125,127,97,Available
+766,2755,within a day,40,68,1,tent,Entire home/apt,4,2,325,2,14,365,5,Not Available
+767,2782,within a day,40,68,1,tent,Entire home/apt,4,2,279,3,60,0,38,Not Available
+768,2754,within an hour,100,70,3,chalet,Entire home/apt,4,1,90,3,365,34,71,Not Available
+769,2753,within a day,40,68,0,cabin,Entire home/apt,2,1,150,3,15,40,1,Available
+770,3095,within a day,40,100,7,condo,Private room,2,1,60,3,21,286,249,Not Available
+771,2752,within a day,40,68,1,condo,Entire home/apt,2,1,70,180,600,286,120,Not Available
+772,2972,within a day,40,68,1,villa,Entire home/apt,2,1,99,3,1125,0,10,Not Available
+773,3147,within a day,40,68,1,studio apartment,Entire home/apt,4,4,160,6,7,0,8,Not Available
+774,2747,within a day,40,68,1,cottage,Entire home/apt,4,5,285,2,1125,0,26,Not Available
+775,3091,within a day,40,68,1,cabin,Entire home/apt,2,1,191,3,1125,0,22,Available
+776,2747,within a day,40,40,1,villa,Private room,5,0,75,1,5,365,141,Available
+777,3174,within a day,40,68,0,tent,Entire home/apt,2,1,196,2,365,0,8,Available
+778,2746,within a day,40,33,1,tent,Entire home/apt,2,1,103,3,30,89,33,Not Available
+779,2787,within a day,40,68,1,cabin,Entire home/apt,2,2,135,28,1125,270,11,Available
+780,2800,within a day,67,75,4,condo,Entire home/apt,4,4,105,3,7,357,35,Available
+781,2755,within an hour,100,100,2,chalet,Private room,2,2,72,3,183,265,215,Not Available
+782,2743,within a day,40,100,2,chalet,Private room,2,2,80,1,1125,130,405,Available
+783,3192,within a day,100,68,1,cottage,Entire home/apt,2,2,144,60,1125,40,4,Not Available
+784,2742,within a few hours,100,0,1,studio apartment,Entire home/apt,3,3,154,4,1125,356,14,Available
+785,2742,within a day,40,94,1,chalet,Entire home/apt,3,2,300,3,31,0,122,Available
+786,2744,within a day,40,68,1,cabin,Entire home/apt,2,1,99,6,35,285,12,Not Available
+787,2742,within a day,40,50,2,bunglow,Private room,2,1,80,2,5,365,156,Available
+788,3097,within a day,40,68,1,tent,Entire home/apt,2,1,125,2,1125,0,22,Available
+789,2741,within a day,40,68,1,condo,Entire home/apt,2,1,118,2,1125,0,53,Available
+790,2741,within a few hours,100,70,1,bunglow,Private room,2,1,46,1,1,40,37,Not Available
+791,2741,within a day,40,0,1,chalet,Private room,2,1,50,1,21,0,99,Not Available
+792,2970,within a day,80,40,1,chalet,Entire home/apt,2,1,90,3,60,1,16,Not Available
+793,2738,within an hour,89,100,1,condo,Entire home/apt,5,2,161,4,1000,115,224,Not Available
+794,2737,within an hour,100,100,2,chalet,Entire home/apt,2,2,300,1,1125,362,52,Available
+795,3024,within a day,40,100,1,condo,Entire home/apt,2,0,153,2,6,0,66,Available
+796,3461,within a day,40,68,1,condo,Entire home/apt,2,1,65,2,15,0,26,Available
+797,2736,within a day,40,33,1,cottage,Entire home/apt,2,1,110,1,1125,0,11,Not Available
+798,2735,within a day,40,68,1,chalet,Entire home/apt,2,1,200,2,120,227,53,Available
+799,3020,within a day,40,68,1,cabin,Entire home/apt,2,1,118,3,30,40,21,Not Available
+800,3139,a few days or more,0,33,1,studio apartment,Entire home/apt,4,3,127,2,365,49,10,Available
+801,2942,within a day,40,22,0,tent,Entire home/apt,2,1,125,2,1125,89,42,Available
+802,2731,within a day,40,89,1,tent,Private room,3,2,60,2,1125,365,275,Not Available
+803,3275,within a few hours,100,94,2,cabin,Private room,2,1,41,1,5,90,381,Not Available
+804,2731,a few days or more,0,0,2,condo,Entire home/apt,2,1,119,3,365,359,10,Available
+805,2731,within a day,40,75,2,villa,Entire home/apt,4,3,450,3,1125,365,63,Available
+806,3599,within an hour,100,100,1,tent,Entire home/apt,2,1,99,2,11,12,54,Available
+807,2730,within a day,40,68,3,bunglow,Entire home/apt,2,2,113,1,1125,0,33,Available
+808,2729,within a day,40,68,1,studio apartment,Entire home/apt,2,1,80,3,15,0,28,Available
+809,2857,within a day,40,68,1,studio apartment,Entire home/apt,4,2,115,2,1125,0,3,Available
+810,2728,within a day,40,68,1,cabin,Entire home/apt,4,3,350,3,1125,0,44,Not Available
+811,3476,within a day,40,68,1,studio apartment,Entire home/apt,4,2,319,2,1125,40,23,Available
+812,2728,a few days or more,50,0,1,cabin,Entire home/apt,2,1,125,1,1125,281,39,Not Available
+813,2765,within a day,40,68,1,bunglow,Entire home/apt,2,2,130,4,21,0,5,Available
+814,2951,within a day,100,42,2,studio apartment,Entire home/apt,4,4,285,2,60,365,93,Not Available
+815,2813,within a day,40,68,1,bunglow,Entire home/apt,4,3,499,1,1125,365,0,Not Available
+816,2726,within a day,40,68,2,cottage,Entire home/apt,4,1,103,1,1125,194,0,Not Available
+817,2725,within a day,40,68,1,cottage,Entire home/apt,3,2,119,6,30,0,12,Available
+818,2725,within a day,40,68,2,bunglow,Entire home/apt,2,1,155,7,1125,89,0,Available
+819,2725,a few days or more,33,75,2,bunglow,Entire home/apt,2,2,135,2,10,177,46,Not Available
+820,2730,within a day,40,100,1,cabin,Entire home/apt,2,2,100,5,20,0,25,Not Available
+821,2837,within a day,40,94,2,bunglow,Entire home/apt,2,1,105,4,1125,0,139,Not Available
+822,2722,within a day,40,68,1,cottage,Entire home/apt,3,1,70,4,20,0,29,Available
+823,2721,within a day,40,97,2,bunglow,Private room,2,1,102,2,1125,235,378,Available
+824,2720,within a day,40,100,0,condo,Entire home/apt,6,4,220,7,300,0,16,Available
+825,2722,within a day,40,100,1,villa,Entire home/apt,4,2,100,5,26,0,59,Available
+826,3242,within a day,40,68,2,bunglow,Entire home/apt,4,2,250,2,1125,0,63,Available
+827,2717,within a day,40,100,1,bunglow,Entire home/apt,4,3,220,3,1125,315,62,Available
+828,3064,within a day,40,68,0,cottage,Entire home/apt,4,2,201,2,1125,0,87,Not Available
+829,2714,within a day,40,68,1,bunglow,Entire home/apt,2,1,123,2,1125,224,279,Available
+830,2815,within a day,40,68,1,cabin,Entire home/apt,2,2,140,3,21,0,69,Available
+831,2714,within a day,40,68,1,cabin,Entire home/apt,2,1,200,3,14,0,43,Not Available
+832,2724,within a day,40,89,1,chalet,Private room,3,2,79,2,1125,316,237,Available
+833,2829,within a day,80,81,1,condo,Private room,2,1,55,2,21,271,187,Available
+834,2713,within a few hours,100,33,1,cabin,Entire home/apt,6,4,299,3,1125,328,21,Not Available
+835,2791,within a day,40,68,4,villa,Private room,2,1,114,1,90,270,289,Not Available
+836,2713,within a day,40,68,1,cabin,Entire home/apt,2,1,225,3,8,365,42,Available
+837,2711,within a day,40,68,2,cabin,Private room,2,1,84,1,1125,0,0,Not Available
+838,2746,within a day,40,68,1,villa,Entire home/apt,4,4,200,5,21,365,22,Not Available
+839,2710,within an hour,100,91,2,chalet,Private room,2,2,78,3,14,166,421,Not Available
+840,2709,within a few hours,100,100,1,chalet,Entire home/apt,4,3,175,3,1125,0,11,Not Available
+841,2725,within a day,40,68,2,villa,Entire home/apt,2,1,125,2,5,0,33,Available
+842,2708,within a few hours,100,0,1,villa,Entire home/apt,4,2,215,3,1125,0,40,Available
+843,2707,within a day,40,100,1,cottage,Entire home/apt,2,1,180,7,30,195,91,Available
+844,2707,within a day,40,50,1,cabin,Entire home/apt,4,2,149,4,28,2,39,Not Available
+845,2707,within a day,40,80,1,cottage,Entire home/apt,4,4,245,4,50,294,48,Not Available
+846,3324,within a day,40,68,1,bunglow,Entire home/apt,2,1,215,6,30,291,9,Not Available
+847,2878,within a day,40,68,2,villa,Private room,2,2,77,89,90,0,2,Not Available
+848,2871,within a day,40,68,1,bunglow,Entire home/apt,2,1,119,5,30,0,17,Not Available
+849,2714,within a day,40,68,1,tent,Entire home/apt,2,1,132,4,365,0,41,Available
+850,2703,within a day,40,0,2,tent,Entire home/apt,4,2,275,3,21,0,60,Not Available
+851,2701,within a day,40,68,1,bunglow,Entire home/apt,1,1,154,3,10,0,22,Not Available
+852,2700,within a day,100,0,9,cottage,Entire home/apt,4,2,264,7,180,365,2,Not Available
+853,2700,within a day,100,0,1,cabin,Entire home/apt,2,1,120,2,3,47,73,Available
+854,2700,within a day,40,68,1,bunglow,Entire home/apt,4,1,200,3,1125,0,12,Available
+855,2968,within a day,40,71,1,cabin,Entire home/apt,2,1,199,3,7,90,51,Available
+856,3232,within a day,40,67,1,tent,Private room,2,1,75,4,31,133,265,Available
+857,3091,within a day,40,68,1,tent,Entire home/apt,2,1,80,3,10,0,20,Available
+858,2698,within a day,40,0,1,cabin,Entire home/apt,4,3,250,2,21,0,47,Available
+859,2698,within a day,40,68,1,studio apartment,Entire home/apt,4,2,105,2,10,0,42,Available
+860,2892,within a few hours,100,95,5,bunglow,Private room,2,1,84,1,1125,90,410,Not Available
+861,3567,within a day,40,68,1,chalet,Private room,2,0,130,1,14,365,90,Available
+862,2769,within a day,40,100,0,cottage,Entire home/apt,4,0,225,7,1125,0,4,Available
+863,2694,within a day,40,100,1,condo,Private room,2,1,89,3,1125,364,43,Available
+864,2944,within a day,40,68,1,chalet,Entire home/apt,2,2,125,3,4,0,29,Not Available
+865,2693,within a day,40,85,1,cabin,Entire home/apt,4,3,120,3,1125,0,218,Not Available
+866,2693,within a day,40,68,1,bunglow,Entire home/apt,2,1,90,5,1125,0,4,Available
+867,2888,within a day,40,83,1,villa,Private room,2,1,98,2,4,0,304,Not Available
+868,2925,within a day,40,68,1,cottage,Entire home/apt,2,1,125,1,1125,0,15,Not Available
+869,2693,within an hour,100,100,3,studio apartment,Private room,2,1,70,1,1125,0,201,Available
+870,2730,within a day,40,93,1,studio apartment,Private room,2,1,60,2,30,365,213,Not Available
+871,2692,within a day,40,30,1,villa,Entire home/apt,4,1,289,3,1125,50,101,Not Available
+872,2692,within a day,40,68,1,studio apartment,Entire home/apt,2,1,120,5,365,0,29,Not Available
+873,2692,within a day,40,68,1,chalet,Entire home/apt,4,3,186,2,30,0,16,Not Available
+874,2692,within a day,40,68,1,studio apartment,Entire home/apt,2,1,115,3,30,0,13,Not Available
+875,2691,within a day,40,68,2,condo,Entire home/apt,2,1,105,2,1125,365,11,Available
+876,3491,within a day,40,68,1,studio apartment,Entire home/apt,2,1,175,2,7,89,37,Not Available
+877,2691,within a day,40,68,1,tent,Entire home/apt,2,1,150,2,1125,0,4,Not Available
+878,2690,within a day,40,68,1,chalet,Private room,2,1,90,1,1125,89,0,Available
+879,2691,within a day,40,68,2,studio apartment,Entire home/apt,2,1,115,2,1125,365,8,Available
+880,2995,within an hour,100,0,1,cottage,Entire home/apt,4,6,150,2,365,71,14,Available
+881,3415,within a day,40,68,1,chalet,Entire home/apt,4,2,450,4,365,358,26,Not Available
+882,2689,within a day,40,68,1,chalet,Private room,1,1,40,1,3,0,1,Not Available
+883,2689,within an hour,83,100,1,tent,Private room,2,1,130,1,1125,359,771,Not Available
+884,2688,within a day,40,0,1,chalet,Entire home/apt,4,2,225,3,1125,1,6,Not Available
+885,2826,within a day,40,68,1,studio apartment,Entire home/apt,2,1,60,3,1124,0,24,Available
+886,2688,within a day,40,68,2,cottage,Private room,2,1,75,2,3,0,17,Not Available
+887,2685,within a day,40,100,1,studio apartment,Entire home/apt,5,5,200,2,1125,0,19,Available
+888,2685,within a day,40,68,1,chalet,Entire home/apt,4,2,115,2,10,0,14,Not Available
+889,2685,within a day,40,68,1,cottage,Entire home/apt,2,1,110,5,9,0,22,Available
+890,2770,within a day,40,68,1,tent,Entire home/apt,2,1,120,5,21,364,6,Not Available
+891,2684,within a day,40,87,2,villa,Private room,2,1,44,3,1125,77,360,Available
+892,2684,within a day,40,100,1,bunglow,Private room,1,0,61,4,6,0,229,Available
+893,2684,within a day,40,68,1,studio apartment,Entire home/apt,2,1,120,2,1125,88,42,Not Available
+894,3251,within an hour,100,100,0,tent,Entire home/apt,2,1,100,4,10,144,86,Not Available
+895,2682,within a day,40,68,1,tent,Entire home/apt,2,1,145,2,28,70,40,Available
+896,2682,within a day,40,68,1,bunglow,Entire home/apt,2,1,200,2,31,365,9,Available
+897,2681,within a day,40,68,1,condo,Entire home/apt,2,1,122,20,365,0,50,Available
+898,3589,within a day,40,68,98,tent,Entire home/apt,2,1,126,3,1125,0,39,Available
+899,3378,within a day,40,68,1,studio apartment,Entire home/apt,6,6,300,6,10,0,1,Not Available
+900,2680,within a day,40,68,1,studio apartment,Entire home/apt,5,2,160,1,1125,0,0,Not Available
+901,2679,within an hour,100,100,1,tent,Entire home/apt,3,1,146,7,1125,0,133,Available
+902,2693,within an hour,100,100,3,condo,Private room,2,1,75,2,365,359,266,Available
+903,2678,within a day,40,68,1,villa,Entire home/apt,2,1,99,2,1125,0,2,Not Available
+904,2796,within a day,40,100,2,condo,Private room,2,1,87,2,90,283,401,Available
+905,2677,within a day,40,20,2,tent,Entire home/apt,2,2,75,3,1125,0,81,Not Available
+906,2677,within a day,40,68,1,bunglow,Entire home/apt,2,1,219,2,30,364,49,Not Available
+907,2676,within a day,40,68,1,villa,Entire home/apt,4,3,117,3,15,0,25,Available
+908,2675,within a few hours,100,25,1,cabin,Entire home/apt,4,4,136,2,1125,364,89,Not Available
+909,2674,within a day,40,68,1,condo,Entire home/apt,2,2,120,8,1125,0,23,Not Available
+910,2673,within a day,40,50,2,villa,Entire home/apt,4,2,188,2,60,362,92,Not Available
+911,2675,within a day,40,68,1,cabin,Entire home/apt,2,1,130,3,365,102,10,Available
+912,3603,within a day,67,54,1,cottage,Entire home/apt,2,0,100,1,14,348,64,Not Available
+913,3021,within a day,40,100,1,cabin,Entire home/apt,2,1,99,3,60,0,98,Not Available
+914,2958,within a day,40,68,1,condo,Entire home/apt,2,1,218,2,1125,0,81,Not Available
+915,2803,within a day,40,100,2,chalet,Entire home/apt,2,1,175,1,1125,0,31,Available
+916,2670,within an hour,100,100,1,chalet,Entire home/apt,4,2,400,2,1125,365,31,Not Available
+917,2745,within a day,40,68,2,cottage,Entire home/apt,2,1,112,2,365,0,10,Available
+918,2693,within an hour,100,100,3,chalet,Private room,4,0,150,2,1125,349,40,Available
+919,2669,within a day,40,46,1,condo,Private room,2,2,105,3,1125,341,331,Available
+920,2734,within a day,40,100,1,studio apartment,Entire home/apt,2,1,105,3,30,9,92,Available
+921,3150,within a day,40,68,1,cabin,Entire home/apt,2,0,125,2,1125,0,0,Not Available
+922,2776,within a day,40,71,1,studio apartment,Private room,2,2,60,2,28,89,306,Available
+923,3025,within a day,40,25,0,cottage,Entire home/apt,2,0,95,4,1125,365,39,Not Available
+924,3856,within a day,40,0,1,cabin,Entire home/apt,2,1,220,1,1125,285,15,Available
+925,2665,within a day,40,68,1,tent,Entire home/apt,4,3,169,1,17,0,32,Not Available
+926,2665,within a day,40,68,1,bunglow,Entire home/apt,4,2,175,2,10,83,13,Not Available
+927,2665,within a day,40,68,1,studio apartment,Entire home/apt,3,2,128,1,10,0,72,Not Available
+928,2664,within a day,40,75,1,tent,Entire home/apt,2,1,150,1,1124,0,55,Not Available
+929,2664,within an hour,100,0,1,bunglow,Entire home/apt,2,1,283,5,31,49,32,Available
+930,2666,within a day,40,68,1,cabin,Entire home/apt,2,1,150,3,1125,0,13,Not Available
+931,3316,within a day,40,99,3,tent,Private room,4,4,95,3,1125,0,453,Available
+932,3140,within a day,40,68,1,tent,Entire home/apt,2,1,200,3,28,0,1,Not Available
+933,2663,a few days or more,0,57,1,tent,Entire home/apt,4,2,200,2,1125,1,38,Not Available
+934,2699,within a day,40,100,1,bunglow,Entire home/apt,4,4,300,3,30,0,32,Available
+935,2663,within an hour,100,0,1,tent,Entire home/apt,6,6,130,4,21,345,12,Not Available
+936,2673,within a day,40,68,1,villa,Entire home/apt,4,2,230,2,1124,0,29,Available
+937,2662,within a day,40,68,2,tent,Private room,3,3,150,1,1125,0,0,Available
+938,2764,within a day,40,68,1,studio apartment,Private room,2,1,70,1,1125,0,9,Available
+939,3081,within a day,40,0,1,cabin,Entire home/apt,4,2,160,2,1125,88,10,Not Available
+940,3208,within an hour,100,100,3,bunglow,Entire home/apt,2,1,175,2,30,51,41,Available
+941,3087,within a day,40,100,2,cabin,Entire home/apt,5,3,336,3,365,316,84,Not Available
+942,2660,within a day,40,68,1,tent,Entire home/apt,4,2,149,3,30,0,36,Available
+943,2660,within a day,40,100,0,studio apartment,Entire home/apt,2,1,250,1,5,179,0,Not Available
+944,2659,within a day,40,68,1,villa,Entire home/apt,2,1,59,2,30,0,2,Available
+945,3289,within a day,40,68,1,chalet,Entire home/apt,2,1,119,3,1125,0,27,Not Available
+946,3130,within a day,40,68,1,studio apartment,Entire home/apt,4,1,79,2,1125,0,23,Not Available
+947,2667,within a few hours,100,57,1,studio apartment,Entire home/apt,2,1,150,14,365,116,10,Not Available
+948,2676,within a day,40,50,1,tent,Entire home/apt,3,2,130,4,1125,1,76,Available
+949,2658,within a few hours,100,0,1,tent,Entire home/apt,2,0,103,4,1125,1,15,Available
+950,3415,within a day,40,68,1,studio apartment,Entire home/apt,4,4,225,2,60,0,0,Not Available
+951,2657,within a day,40,0,1,cottage,Entire home/apt,4,3,275,3,14,263,10,Not Available
+952,2892,within a day,40,68,1,cabin,Entire home/apt,2,1,126,3,31,0,11,Available
+953,2701,within a day,40,100,1,tent,Private room,4,2,193,2,14,320,102,Not Available
+954,2970,within a day,40,68,1,condo,Entire home/apt,4,2,350,2,1125,173,2,Available
+955,2963,within a day,40,100,1,bunglow,Entire home/apt,2,1,99,2,30,40,45,Not Available
+956,2655,within a day,40,68,1,chalet,Entire home/apt,3,2,130,4,60,0,15,Not Available
+957,2746,within a day,40,68,1,studio apartment,Entire home/apt,2,1,129,6,48,0,0,Not Available
+958,2654,within a day,40,68,1,studio apartment,Entire home/apt,2,1,80,6,14,0,31,Not Available
+959,2781,within a day,40,67,1,cottage,Entire home/apt,3,1,75,3,1125,0,17,Available
+960,2872,within a day,40,68,2,tent,Entire home/apt,2,1,115,14,30,0,17,Available
+961,2982,within a day,40,68,2,studio apartment,Private room,1,1,49,3,1125,225,170,Not Available
+962,3414,within a day,40,68,1,tent,Entire home/apt,4,3,220,2,1125,0,16,Not Available
+963,2836,within a day,40,68,1,tent,Private room,2,1,100,1,1125,0,19,Available
+964,2692,within a few hours,100,53,1,cabin,Entire home/apt,2,1,120,1,1125,144,18,Available
+965,3567,within a day,40,68,2,studio apartment,Private room,2,1,110,6,25,0,4,Available
+966,2648,within a day,40,68,1,bunglow,Entire home/apt,4,4,100,59,60,365,16,Not Available
+967,2796,within a day,40,100,2,villa,Private room,2,1,87,2,90,280,431,Not Available
+968,2646,within a day,40,0,1,tent,Entire home/apt,2,1,214,10,1125,363,39,Available
+969,2646,within a day,40,68,1,chalet,Entire home/apt,2,1,70,2,32,0,0,Available
+970,2652,within a day,40,68,1,tent,Entire home/apt,2,1,250,2,30,0,31,Available
+971,2886,within a day,40,68,1,bunglow,Entire home/apt,2,1,120,2,1125,0,1,Not Available
+972,2645,within a day,40,68,1,cottage,Entire home/apt,2,1,87,2,1125,0,6,Available
+973,2761,within a day,40,68,1,condo,Entire home/apt,2,1,135,2,1125,256,93,Available
+974,3169,within a day,70,4,1,villa,Entire home/apt,2,1,99,1,1125,309,73,Not Available
+975,2645,within a day,40,68,1,cottage,Entire home/apt,10,10,390,3,21,0,11,Not Available
+976,2715,within a day,40,33,1,studio apartment,Private room,2,1,99,2,15,0,65,Available
+977,2643,within a day,75,68,1,villa,Entire home/apt,2,0,84,4,30,361,27,Not Available
+978,2831,within a day,40,68,1,cottage,Entire home/apt,4,4,85,4,1125,0,1,Available
+979,2662,within a day,40,68,1,cottage,Entire home/apt,2,1,85,2,1125,0,33,Not Available
+980,2643,within a day,100,83,3,cottage,Private room,16,24,636,2,1125,16,65,Not Available
+981,2643,within a day,100,83,3,studio apartment,Entire home/apt,16,0,520,2,1125,0,12,Not Available
+982,2645,a few days or more,0,0,1,condo,Entire home/apt,6,3,160,2,1125,365,61,Available
+983,3317,within a day,100,68,1,cabin,Private room,2,1,75,1,1125,365,3,Available
+984,2764,within a day,100,100,1,tent,Entire home/apt,4,2,164,3,30,0,42,Available
+985,2639,within a day,40,68,1,cabin,Private room,3,2,70,3,1125,0,31,Not Available
+986,2638,within a day,40,68,1,chalet,Private room,2,1,75,3,1125,316,38,Not Available
+987,2638,within a day,40,68,1,villa,Entire home/apt,2,1,115,9,1125,0,2,Not Available
+988,2806,within a day,40,68,1,chalet,Entire home/apt,2,1,150,3,20,87,10,Available
+989,2850,within an hour,100,100,1,cabin,Private room,2,1,75,2,120,113,497,Available
+990,3397,within a day,40,44,1,studio apartment,Entire home/apt,2,1,120,2,60,0,49,Not Available
+991,2740,within a day,40,100,1,condo,Entire home/apt,2,1,170,3,15,0,27,Not Available
+992,2688,within a day,40,68,2,bunglow,Private room,2,1,89,2,6,0,11,Not Available
+993,2767,within a day,40,68,1,cottage,Entire home/apt,2,1,150,60,365,364,34,Available
+994,2634,within a day,40,68,1,tent,Entire home/apt,4,1,200,2,31,41,143,Available
+995,2634,within an hour,100,0,1,tent,Entire home/apt,4,5,175,4,1125,10,11,Available
+996,2634,within a few hours,100,63,3,tent,Entire home/apt,3,1,118,1,200,68,90,Not Available
+997,2721,within a day,40,68,1,chalet,Entire home/apt,4,2,250,3,1125,0,25,Not Available
+998,2633,within a day,40,68,1,condo,Entire home/apt,4,3,195,2,1125,0,7,Available
+999,3355,within a day,40,100,1,cabin,Entire home/apt,4,1,185,4,30,224,81,Not Available
