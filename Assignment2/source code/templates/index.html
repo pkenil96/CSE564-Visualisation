@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSE564 - Visualization - Lab Assignment 2</title>
+        <link rel="stylesheet" href="../static/css/style.css"></link>
+		<script type="text/javascript" src="../static/js/main.js"></script>
+		<script type="text/javascript" src="../static/js/globalconstants.js"></script>
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+		<link rel="shortcut icon" href="#">
+    </head>
+    <body align="center">
+        	<h1 align="center" style="background-color: #D0D0D0;">CSE564 - Visualization - Lab Assignment 2</h1>
+            <h2 align="center" style="color: blue;">College Basketball Data Analysis</h2>
+            <p id='embed'>{{embed}}</p>
+            <p id='mylog'></p>
+            <div id="taskSelector" class="dropdown">
+				<label>Select Task:</label>
+				<select name="selectTask" id="selectTask" onchange="return taskSelectorUpdate();">
+  					<option value="default">select task</option>
+                    <option value="attributes">Attributes</option>
+  					<option value="task1">Task 1</option>
+		  			<option value="task2">Task 2</option>
+                    <option value="task3">Task 3</option>
+		  			<option value="task4">Task 4</option>
+                </select>
+			</div>
+            <div id="tablemain" align="center" style="margin-top: 10px; padding-top: 10px;"></div>
+        </div>
+        <div style="width:800px; margin:0 auto;" id="question">
+            <p style="text-align:center;">
+                <h4 align="center">Task 1: Basic dimension reduction and data visualization with PCA</h4>
+                <p align="center">1.1 Compute the Eigenvectors of the data and visualize the
+                Eigenvalues as scree plot</p>
+                <p align="center">1.2 Add an interaction element on the scree plot to select the intrinsic dimensionality index (di)</p>
+                <p align="center">1.3 plot the data into a PCA-based biplot</p>
+                
+                <h4 align="center">Task 2: Visualize the data with a scatterplot matrix</h4>
+                <p align="center">2.1 Use PCA components ≤ di to obtain four attributes with
+                highest PCA loadings and list them in a table</p>
+                <p align="center">2.2 use these four attributes and construct a scatterplot matrix</p>
+                <p align="center">2.3 use k-means to find clusters and color the points by cluster ID</p>
+                
+                <h4 align="center">Task 3: MDS plots (Multidimensional Scaling)</h4>
+                <p align="center">3.1 Construct the MDS plot using Euclidian distance and visualize it via a scatterplot</p>
+                <p align="center">3.2 Color the points by cluster id</p>
+                <p align="center">3.3 Construct the MDS plot using 1-|correlation| distance and visualize it via a scatterplot</p>
+                
+                <h4 align="center">Task 4: Parallel coordinates plot (PCP)</h4>
+                <p align="center">4.1 Visualize the data in a parallel coordinates plot</p>
+                <p align="center">4.2 Color the polylines by cluster ID</p>
+            </p>
+        </div>
+        <div class="screeplot" id="screeplot"></div>
+        <div class="biplot" id="biplot"></div>
+        <div id="titleDiv"></div>
+    </body>
+</html>
